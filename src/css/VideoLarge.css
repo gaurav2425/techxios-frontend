@@ -1,0 +1,8 @@
+.video_large video {
+  outline: none;
+}
+
+.video_large {
+  padding-top: 30px;
+  /* padding-bottom: 5px; */
+}

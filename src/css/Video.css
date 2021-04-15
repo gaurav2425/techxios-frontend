@@ -1,0 +1,14 @@
+.video_container video {
+  outline: none;
+}
+
+.video_container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .video_container video {
+    height: 53vw;
+  }
+}

@@ -1,0 +1,30 @@
+.btn {
+  padding: 15px 30px;
+  color: rgb(255, 255, 255);
+  font-weight: lighter;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 15px;
+  background: rgb(207, 5, 140);
+  background: rgb(219, 6, 130);
+}
+
+.pagination_main {
+  min-height: 45px;
+  width: 100%;
+  background: rgb(229, 226, 226);
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 500px) {
+  .btn {
+    padding: 10px 20px;
+    font-size: 10px;
+  }
+  .pagination_main {
+    min-height: 20px;
+  }
+}

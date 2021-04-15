@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oi&family=Teko:wght@300&display=swap");
+.navbar {
+  background-color: rgb(0, 0, 0);
+  /* border-top: 1px solid wheat; */
+  border-bottom: 1px solid rgb(43, 42, 42);
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.logo {
+  justify-content: center;
+  display: flex;
+  /* background: chartreuse; */
+}
+.nb {
+  display: none;
+}
+.logo h1 {
+  margin-top: 3px;
+  color: aliceblue;
+  font-family: "Oi", cursive;
+  font-family: "Teko", sans-serif;
+}
+ul {
+  margin: 0;
+  color: aliceblue;
+  background: rgb(0, 0, 0);
+  padding: 0;
+  z-index: 111;
+}
+
+ul li {
+  list-style: none;
+  float: left;
+  width: 150px;
+  z-index: 111;
+  height: 40px;
+  color: rgb(255, 255, 255);
+  line-height: 40px;
+}
+ul li a {
+  display: block;
+  text-align: center;
+  align-items: center;
+}
+ul li a:hover {
+  z-index: -1;
+  cursor: pointer;
+}
+
+ul ul {
+  text-align: center;
+  background: none;
+}
+
+ul li ul li {
+  font-size: 12px;
+  display: none;
+  background: rgb(0, 0, 0);
+  z-index: 111;
+  animation: animate 0.5s linear;
+}
+
+@keyframes animate {
+  0% {
+    position: relative;
+    top: 10px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+ul li ul li:hover {
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+}
+
+ul li ul li a:hover {
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+}
+
+ul li:hover ul li {
+  display: block;
+}
+
+.one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one_icon {
+  position: relative;
+  background: blanchedalmond;
+  top: 7px;
+  color: rgb(235, 3, 177);
+}
+
+.sub_menu {
+  margin-left: 150px;
+  display: none;
+}
+.sub_menu_main:hover > .sub_menu {
+  display: block;
+}
+
+.list_1 {
+  display: flex;
+}
+.navbar1 {
+  display: block;
+}
+.navbar2 {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .navbar1 {
+    display: none;
+  }
+  .navbar2 {
+    display: block;
+  }
+  ul li {
+    list-style: none;
+    float: left;
+    background: rgb(185, 41, 149);
+    width: 130px;
+    height: 40px;
+    background: rgb(0, 0, 0);
+    color: aliceblue;
+    line-height: 40px;
+  }
+}

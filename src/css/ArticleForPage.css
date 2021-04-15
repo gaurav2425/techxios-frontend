@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.card_main {
+  /* min-width: 500px; */
+  width: 650px;
+  /* font-family: "Lato", sans-serif; */
+  height: 150px;
+  margin-bottom: 5px;
+  color: aliceblue;
+  border-bottom: rgb(0, 0, 0) dotted 1px;
+  background: rgb(255, 255, 255);
+  /* box-shadow: 1px 1px rgb(37, 36, 36); */
+  /* color: #ffa600; */
+  /* margin-left: 10px; */
+  /* background: purple; */
+  margin-top: 25px;
+
+  display: flex;
+}
+.card_main_left img {
+  width: 100%;
+  height: 150px;
+}
+.card_main_left {
+  background: rgb(161, 130, 130);
+  width: 250px;
+}
+
+.card_main_right {
+  /* background: rgb(0, 81, 255); */
+  min-width: 30%;
+  color: black;
+  max-width: 60%;
+
+  flex: 1;
+}
+
+.card_main_right h2 {
+  margin-left: 10px;
+  font-size: 20px;
+  letter-spacing: 0px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 5px;
+  font-weight: 400;
+  color: black;
+  text-decoration: inherit;
+}
+.card_main_right h2:hover {
+  text-decoration: rgb(0, 0, 0) solid underline;
+  cursor: pointer;
+}
+.card_main_right h5 {
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: 5px;
+  color: rgb(37, 36, 36);
+  margin-left: 10px;
+}
+
+.loader {
+  width: 50px;
+  background: blue;
+  height: 50px;
+}
+.pagination {
+  background: red;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+@media screen and (max-width: 700px) {
+  .card_main {
+    width: 90vw;
+  }
+  .card_main_left img {
+    width: 100%;
+  }
+  .card_main_left {
+    background: rgb(161, 130, 130);
+    width: 40vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card_main {
+    width: 90vw;
+    height: 22vw;
+  }
+  .card_main_left img {
+    width: 100%;
+    height: 22vw;
+  }
+  .card_main_left {
+    background: rgb(161, 130, 130);
+    width: 40vw;
+    height: 22vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card_main {
+    width: 90vw;
+    height: 23vw;
+  }
+  .card_main_left img {
+    width: 100%;
+    height: 23vw;
+  }
+  .card_main_left {
+    background: rgb(161, 130, 130);
+    width: 35vw;
+    height: 23vw;
+  }
+  .card_main_right h2 {
+    font-size: 12px;
+  }
+
+  .card_main_right h5 {
+    font-size: 9px;
+    margin-top: 1px;
+  }
+  .card_main {
+    margin-top: 5px;
+  }
+}
