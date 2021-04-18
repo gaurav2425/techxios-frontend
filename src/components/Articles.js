@@ -4,6 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import axios from "../axios";
 import { BarLoader } from "react-spinners";
 import { css } from "@emotion/core";
+import Video from "../components/Video";
 function Articles({ ImageSrc, fetchUrl }) {
   const params = useParams();
   const [trending, setTrending] = useState([]);
@@ -82,35 +83,3 @@ function Articles({ ImageSrc, fetchUrl }) {
 }
 
 export default Articles;
-
-// import React, { useEffect, useState } from "react";
-// import "../NavbarComponentsCss/Amazon.css";
-// function Amazon() {
-//   const [users, setUsers] = useState([]);
-//   const getUsers = async () => {
-//     const response = await fetch(
-//       "http://127.0.0.1:8000/api/amazon/amazon-list"
-//     );
-//     setUsers(await response.json());
-//     // console.log(data);
-//   };
-//   useEffect(() => {
-//     getUsers();
-//   }, []);
-
-//   return (
-//     <div>
-//       {users.map((current) => {
-//         return (
-//           <div key={current.id} className="main">
-//             <h1>{current.title}</h1>
-
-//             <h5>{current.description}</h5>
-//           </div>
-//         );
-//       })}
-//     </div>
-//   );
-// }
-
-// export default Amazon;
