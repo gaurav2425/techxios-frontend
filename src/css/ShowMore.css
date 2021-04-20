@@ -7,13 +7,14 @@
 
 .showmore {
   cursor: pointer;
-  width: 90%;
+  width: 90vw;
   justify-content: center;
   outline: rgb(236, 163, 28) dotted 1px;
   align-items: center;
   display: flex;
   flex-direction: column;
   height: 50px;
+
   background-color: rgb(121, 7, 105);
   background-color: rgb(255, 255, 255);
   /* background: aliceblue; */

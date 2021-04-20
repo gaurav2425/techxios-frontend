@@ -1095,11 +1095,11 @@ function App() {
               </div>
             </div>
 
-            <Link to="/archives" style={{ textDecoration: "none" }}>
-              <div className="showmore_container">
+            <div className="showmore_container">
+              <Link to="/archives" style={{ textDecoration: "none" }}>
                 <ShowMore></ShowMore>
-              </div>
-            </Link>
+              </Link>
+            </div>
           </Route>
         </Switch>
         <div className="footer_main">

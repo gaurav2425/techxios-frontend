@@ -45,9 +45,13 @@ function Articles({ ImageSrc, fetchUrl }) {
                     style={{ textDecoration: "none" }}
                   >
                     {trending.title.length > 70 ? (
-                      <h2>{trending.title.slice(0, 70)}...</h2>
+                      <div className="txt">
+                        <h2>{trending.title.slice(0, 70)}...</h2>
+                      </div>
                     ) : (
-                      <h2>{trending.title}</h2>
+                      <div className="txt">
+                        <h2>{trending.title}</h2>
+                      </div>
                     )}
                   </Link>
                   <h5>
