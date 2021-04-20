@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
 .image img {
   /* width: 600px; */
   max-width: 900px;
@@ -63,10 +64,12 @@
   height: auto;
 }
 .article_description h4 {
-  font-size: 21px;
-  font-weight: normal;
+  font-size: 20px;
+  font-weight: 500;
+  /* font-weight: dark; */
   color: rgb(20, 20, 20);
   margin-top: 0px;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 .social_icons {

@@ -35,8 +35,10 @@
 
 .date_time h4 {
   margin-top: -35px;
-  font-size: 20px;
+  font-size: 25px;
   text-orientation: sideways;
+  font-family: "Teko", sans-serif;
+  letter-spacing: 1px;
   background-attachment: fixed;
   color: rgb(255, 255, 255);
   font-weight: normal;
@@ -44,7 +46,8 @@
 
 .blog_banner h1 {
   font-weight: 900;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  /* letter-spacing: 1px; */
   font-family: "Oi", cursive;
   font-size: 125px;
   font-family: "Teko", sans-serif;
