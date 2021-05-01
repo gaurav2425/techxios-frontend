@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import FacebookIcon from "@material-ui/icons/Facebook";
-import { BarLoader } from "react-spinners";
+import { BarLoader, ScaleLoader } from "react-spinners";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import { css } from "@emotion/core";
 import axios from "../axios";
@@ -186,13 +186,13 @@ function ArticleDetail({ fetchUrl }) {
           }}
         >
           <div>
-            <BarLoader
+            <ScaleLoader
               loading
               css={override}
               size={1114}
               color="rgb(219, 6, 130)"
               style={{ marginBottom: 10, Zindex: 111 }}
-            ></BarLoader>
+            ></ScaleLoader>
           </div>
         </div>
       )}

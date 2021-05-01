@@ -9,6 +9,7 @@ import {
   BounceLoader,
   SkewLoader,
   SquareLoader,
+  PuffLoader,
 } from "react-spinners";
 const override = css`
   display: block;
