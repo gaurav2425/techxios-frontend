@@ -5,6 +5,7 @@ import axios from "../axios";
 import { BarLoader } from "react-spinners";
 import { css } from "@emotion/core";
 import Video from "../components/Video";
+import Loading from "../components/Loading";
 function Articles({ ImageSrc, fetchUrl }) {
   const params = useParams();
   const [trending, setTrending] = useState([]);
@@ -72,13 +73,7 @@ function Articles({ ImageSrc, fetchUrl }) {
           }}
         >
           <div>
-            <BarLoader
-              loading
-              css={override}
-              size={1114}
-              color="rgb(219, 6, 130)"
-              style={{ marginBottom: 10, Zindex: 111 }}
-            ></BarLoader>
+            <Loading loading={loading}></Loading>
           </div>
         </div>
       )}
