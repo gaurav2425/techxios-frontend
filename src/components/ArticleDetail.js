@@ -5,6 +5,7 @@ import { BarLoader, ScaleLoader } from "react-spinners";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import { css } from "@emotion/core";
 import axios from "../axios";
+import { Helmet } from "react-helmet";
 import { Link, useParams } from "react-router-dom";
 import "../css/ArticleDetail.css";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
@@ -42,6 +43,9 @@ function ArticleDetail({ fetchUrl }) {
                 display: "flex",
               }}
             >
+              <Helmet>
+                <title>{articleDetail.title}</title>
+              </Helmet>
               <div
                 style={{
                   borderTop: "1px solid black",
