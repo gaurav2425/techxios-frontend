@@ -43,7 +43,7 @@ export class Contact extends Component {
         <div className="contact_header">
           <br></br>
 
-          <h1>CONTACT THE TECH ROBOT</h1>
+          <h1>CONTACT Techxios</h1>
           <br></br>
         </div>
         <form onSubmit={this.submitHandler}>
@@ -70,7 +70,6 @@ export class Contact extends Component {
               </h3>
               <input
                 type="email"
-                //   placeholder="Enter Your Email Address"
                 name="email"
                 value={email}
                 onChange={this.changeHandler}
@@ -85,7 +84,6 @@ export class Contact extends Component {
               </h3>
               <textarea
                 type="text"
-                //   placeholder="Enter Your Email Address"
                 name="message"
                 value={message}
                 rows="8"
