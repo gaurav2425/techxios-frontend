@@ -29,6 +29,7 @@ const requests = {
   Health: "/api/health/health-list",
   Energy: "/api/energy/energy-list",
   Environment: "/api/environment/environment-list",
+  More: "/api/more/more-list",
 };
 
 export default requests;

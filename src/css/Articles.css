@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=KoHo:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=KoHo:ital@1&display=swap");
 .article_main {
   min-width: 450px;
   max-width: 550px;
@@ -37,7 +39,8 @@
 }
 
 .article_main_right h2:hover {
-  text-decoration: white solid underline;
+  text-decoration: white 1px solid underline;
+  /* color: rgb(218, 0, 170); */
   cursor: pointer;
 }
 .article_main_right h5 {
@@ -118,4 +121,54 @@
   .article_main_right h5 {
     font-size: 10px;
   }
+}
+
+.title_trending {
+  font-family: "KoHo", sans-serif;
+  font-size: 12px;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+
+.article_title {
+  display: flex;
+  /* background-color: aliceblue; */
+  height: 140px;
+
+  max-width: 550px;
+}
+
+.txt_title {
+  font-size: 15px;
+  height: 140px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 350px;
+
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* background-color: aqua; */
+}
+
+.txt_title h2 {
+  text-align: center;
+  /* background-color: yellow; */
+  max-width: 340px;
+  font-size: 18px;
+  font-family: "KoHo", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.txt_title h2:hover {
+  text-align: center;
+  /* background-color: yellow; */
+  font-family: "KoHo", sans-serif;
+  color: rgb(77, 76, 76);
+}
+
+.title_trending {
+  font-size: 10px;
 }

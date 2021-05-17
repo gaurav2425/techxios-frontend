@@ -52,11 +52,10 @@ const useStyles = makeStyles((theme) => ({
   toolbar: theme.mixins.toolbar,
   drawerPaper: {
     width: drawerWidth,
-    background: "black",
+    background: "red",
   },
   content: {
     flexGrow: 1,
-
     padding: theme.spacing(3),
   },
 }));
@@ -84,7 +83,7 @@ function ResponsiveDrawer(props) {
         <div
           className="nav_setting"
           style={{
-            height: 65,
+            height: 75,
             background: "black",
             alignItems: "center",
             display: "flex",
@@ -847,7 +846,7 @@ function ResponsiveDrawer(props) {
         className={classes.appBar}
         style={{
           background: "black",
-          height: 43,
+          height: 50,
           justifyContent: "center",
           // position: "unset",
         }}

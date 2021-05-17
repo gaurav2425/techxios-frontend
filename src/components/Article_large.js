@@ -28,11 +28,45 @@ function Article_large({ fetchUrl }) {
     <div>
       {loading ? (
         <div>
-          {hot.map((hot) => {
+          {hot.slice(0, 2).map((hot) => {
             return (
               <div className="article_large">
                 <div className="articel_large_top">
-                  <img src={`https://techrobot.ml${hot.thumbnail}`}></img>
+                  <img src={`${hot.thumbnail}`}></img>
+                </div>
+                <div className="articel_large_bottom">
+                  <div className="articel_large_bottom_card">
+                    <Link
+                      to={`/${hot.name}/${hot.id}`}
+                      style={{ textDecoration: "none", color: "white" }}
+                    >
+                      {hot.title.length < 62 ? (
+                        <h5>{hot.title}</h5>
+                      ) : (
+                        <h5>{hot.title.slice(0, 62)}...</h5>
+                      )}
+                      {/* {hot.title}-{hot.title.length} */}
+                    </Link>
+
+                    {/* <h5>{hot.title}</h5> */}
+                    {hot.description.length < 180 ? (
+                      <h6>{hot.description}</h6>
+                    ) : (
+                      <h6>{hot.description.slice(0, 180)}...</h6>
+                    )}
+                    {/* {hot.description} */}
+                    <br></br>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+
+          {hot.slice(2).map((hot) => {
+            return (
+              <div className="article_large">
+                <div className="articel_large_top">
+                  <img src={`${hot.thumbnail}`}></img>
                 </div>
                 <div className="articel_large_bottom">
                   <div className="articel_large_bottom_card">

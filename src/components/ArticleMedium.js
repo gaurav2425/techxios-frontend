@@ -30,11 +30,11 @@ function ArticleMedium({ fetchUrl }) {
     <div>
       {loading ? (
         <div className="article_medium_body">
-          {newone.map((newone) => {
+          {newone.slice(0, 3).map((newone) => {
             return (
               <div className="article_medium">
                 <div className="article_top">
-                  <img src={`https://techrobot.ml${newone.thumbnail}`}></img>
+                  <img src={`${newone.thumbnail}`}></img>
                 </div>
                 <div className="article_bottom">
                   <Link
@@ -51,6 +51,126 @@ function ArticleMedium({ fetchUrl }) {
                     {newone.dateint} {newone.month} | {newone.day}
                   </h6>
                 </div>
+              </div>
+            );
+          })}
+
+          {newone.slice(3, 4).map((newone) => {
+            return (
+              <div className="article_medium_title">
+                <br></br>
+                <marquee>
+                  <Link
+                    to={`/${newone.name}/${newone.id}/`}
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                    {newone.title.length < 75 ? (
+                      <h5 style={{ color: "black" }}>{newone.title}</h5>
+                    ) : (
+                      <h5>{newone.title.slice(0, 75)}...</h5>
+                    )}
+                  </Link>
+                </marquee>
+                <br></br>
+                {/* <h6>
+                  {newone.dateint} {newone.month} | {newone.day}
+                </h6> */}
+              </div>
+            );
+          })}
+
+          {newone.slice(4, 6).map((newone) => {
+            return (
+              <div className="article_medium">
+                <div className="article_top">
+                  <img src={`http://127.0.0.1:8000${newone.thumbnail}`}></img>
+                </div>
+                <div className="article_bottom">
+                  <Link
+                    to={`/${newone.name}/${newone.id}/`}
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                    {newone.title.length < 75 ? (
+                      <h5>{newone.title}</h5>
+                    ) : (
+                      <h5>{newone.title.slice(0, 75)}...</h5>
+                    )}
+                  </Link>
+                  <h6>
+                    {newone.dateint} {newone.month} | {newone.day}
+                  </h6>
+                </div>
+              </div>
+            );
+          })}
+
+          {newone.slice(6, 9).map((newone) => {
+            return (
+              <div className="article_medium_title">
+                <br></br>
+                <Link
+                  to={`/${newone.name}/${newone.id}/`}
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  {newone.title.length < 75 ? (
+                    <h5>{newone.title}</h5>
+                  ) : (
+                    <h5>{newone.title.slice(0, 75)}...</h5>
+                  )}
+                </Link>
+                <br></br>
+                {/* <h6>
+                  {newone.dateint} {newone.month} | {newone.day}
+                </h6> */}
+              </div>
+            );
+          })}
+
+          {newone.slice(9, 13).map((newone) => {
+            return (
+              <div className="article_medium">
+                <div className="article_top">
+                  <img src={`http://127.0.0.1:8000${newone.thumbnail}`}></img>
+                </div>
+                <div className="article_bottom">
+                  <Link
+                    to={`/${newone.name}/${newone.id}/`}
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                    {newone.title.length < 75 ? (
+                      <h5>{newone.title}</h5>
+                    ) : (
+                      <h5>{newone.title.slice(0, 75)}...</h5>
+                    )}
+                  </Link>
+                  <h6>
+                    {newone.dateint} {newone.month} | {newone.day}
+                  </h6>
+                </div>
+              </div>
+            );
+          })}
+
+          {newone.slice(13).map((newone) => {
+            return (
+              <div className="article_medium_title">
+                <br></br>
+                <marquee>
+                  <Link
+                    to={`/${newone.name}/${newone.id}/`}
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                    {newone.title.length < 75 ? (
+                      <h5>{newone.title}</h5>
+                    ) : (
+                      <h5>{newone.title.slice(0, 75)}...</h5>
+                    )}
+                  </Link>
+                </marquee>
+                <br></br>
+                {/* <h6>
+                  {newone.dateint} {newone.month} | {newone.day}
+                </h6> */}
               </div>
             );
           })}

@@ -763,13 +763,11 @@ function App() {
             <div className="page_info">
               <h3>Privacy</h3>
               <h5>
-                Once a modest online seller of books, Amazon is now one of the
-                largest companies in the world, and its CEO, Jeff Bezos, is the
-                world’s most wealthy person. We track developments, both of
-                Bezos and Amazon, its growth as a video producer, the popular
-                Prime service, as well as its own hardware, which includes the
-                Amazon Kindle e-reader, Amazon Kindle Fire tablets, and Amazon
-                Fire TV streaming boxes.
+                Data privacy is challenging since it attempts to use data while
+                protecting an individual's privacy preferences and personally
+                identifiable information.The fields of computer security, data
+                security, and information security all design and use software,
+                hardware, and human resources to address this issue.
               </h5>
             </div>
             <div className="page_body">
@@ -798,13 +796,12 @@ function App() {
             <div className="page_info">
               <h3>Facebook</h3>
               <h5>
-                Once a modest online seller of books, Amazon is now one of the
-                largest companies in the world, and its CEO, Jeff Bezos, is the
-                world’s most wealthy person. We track developments, both of
-                Bezos and Amazon, its growth as a video producer, the popular
-                Prime service, as well as its own hardware, which includes the
-                Amazon Kindle e-reader, Amazon Kindle Fire tablets, and Amazon
-                Fire TV streaming boxes.
+                Facebook is an American online social media and social
+                networking service based in Menlo Park, California, and a
+                flagship service of the namesake company Facebook, Inc. It was
+                founded by Mark Zuckerberg, along with fellow Harvard College
+                students and roommates Eduardo Saverin, Andrew McCollum, Dustin
+                Moskovitz, and Chris Hughes
               </h5>
             </div>
             <div className="page_body">
@@ -833,13 +830,13 @@ function App() {
             <div className="page_info">
               <h3>Apple</h3>
               <h5>
-                Once a modest online seller of books, Amazon is now one of the
-                largest companies in the world, and its CEO, Jeff Bezos, is the
-                world’s most wealthy person. We track developments, both of
-                Bezos and Amazon, its growth as a video producer, the popular
-                Prime service, as well as its own hardware, which includes the
-                Amazon Kindle e-reader, Amazon Kindle Fire tablets, and Amazon
-                Fire TV streaming boxes.
+                Apple is an American multinational technology company
+                headquartered in Cupertino, California, that designs, develops,
+                and sells consumer electronics, computer software, and online
+                services. It is considered one of the Big Five companies in the
+                U.S. information technology industry, along with Amazon, Google,
+                Microsoft, and Facebook.It is one of the most popular smartphone
+                and tablet companies in the world.
               </h5>
             </div>
             <div className="page_body">
@@ -868,13 +865,13 @@ function App() {
             <div className="page_info">
               <h3>Tesla</h3>
               <h5>
-                Once a modest online seller of books, Amazon is now one of the
-                largest companies in the world, and its CEO, Jeff Bezos, is the
-                world’s most wealthy person. We track developments, both of
-                Bezos and Amazon, its growth as a video producer, the popular
-                Prime service, as well as its own hardware, which includes the
-                Amazon Kindle e-reader, Amazon Kindle Fire tablets, and Amazon
-                Fire TV streaming boxes.
+                Tesla is an American electric vehicle and clean energy company
+                based in Palo Alto, California. Tesla's current products include
+                electric cars, battery energy storage from home to grid-scale,
+                solar panels and solar roof tiles, as well as other related
+                products and services. Tesla is ranked as the world's
+                best-selling plug-in and battery electric passenger car
+                manufacturer
               </h5>
             </div>
             <div className="page_body">
@@ -938,9 +935,13 @@ function App() {
             <div className="page_info">
               <h3>Microsoft</h3>
               <h5>
-                The Microsoft hub brings you all the latest Microsoft news on
-                Windows 10, Office 365, Surface hardware, and Microsoft's iOS
-                and Android apps like Outlook, Skype, Office, and many more.
+                Microsoft Corporation is an American multinational technology
+                company with headquarters in Redmond, Washington. It develops,
+                manufactures, licenses, supports, and sells computer software,
+                consumer electronics, personal computers, and related services.
+                Its best known software products are the Microsoft Windows line
+                of operating systems, the Microsoft Office suite, and the
+                Internet Explorer and Edge web browsers.
               </h5>
             </div>
 
@@ -970,13 +971,11 @@ function App() {
             <div className="page_info">
               <h3>Google</h3>
               <h5>
-                Once a modest online seller of books, Amazon is now one of the
-                largest companies in the world, and its CEO, Jeff Bezos, is the
-                world’s most wealthy person. We track developments, both of
-                Bezos and Amazon, its growth as a video producer, the popular
-                Prime service, as well as its own hardware, which includes the
-                Amazon Kindle e-reader, Amazon Kindle Fire tablets, and Amazon
-                Fire TV streaming boxes.
+                Google is an American multinational technology company that
+                specializes in Internet-related services and products, which
+                include online advertising technologies, a search engine, cloud
+                computing, software, and hardware. It is considered one of the
+                five Big Tech companies in the world.
               </h5>
             </div>
 

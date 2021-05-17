@@ -21,7 +21,7 @@ export class Contact extends Component {
     e.preventDefault();
     console.log(this.state);
     axios
-      .post("http://127.0.0.1:8000/api/contact/contact-create/", this.state)
+      .post("https://www.techxios.tk/api/contact/contact-create/", this.state)
       .then((response) => {
         console.log(response);
         alert("You Successfully Submitted Your Response");
@@ -43,7 +43,7 @@ export class Contact extends Component {
         <div className="contact_header">
           <br></br>
 
-          <h1>CONTACT Techxios</h1>
+          <h1>Contact Techxios</h1>
           <br></br>
         </div>
         <form onSubmit={this.submitHandler}>

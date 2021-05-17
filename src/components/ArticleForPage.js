@@ -38,7 +38,7 @@ function ArticleForPage({ fetchUrl }) {
           {articles.slice(pagination.start, pagination.end).map((article) => (
             <div className="card_main">
               <div className="card_main_left">
-                <img src={`https://techrobot.ml${article.thumbnail}`}></img>
+                <img src={`${article.thumbnail}`}></img>
               </div>
               <div className="card_main_right">
                 <Link

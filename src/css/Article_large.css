@@ -11,6 +11,7 @@
     /* background-color: blue; */
     width: 500px;
     height: 300px;
+    background: rgb(32, 32, 32);
   }
   .article_large img {
     width: 500px;
@@ -98,7 +99,7 @@
 }
 
 .articel_large_bottom_card h5:hover {
-  text-decoration: underline;
+  text-decoration: 1px underline;
   cursor: pointer;
 }
 

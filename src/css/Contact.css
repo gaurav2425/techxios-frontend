@@ -29,8 +29,12 @@
   font-weight: lighter;
   border: none;
   outline: none;
+  background: rgb(219, 6, 130);
 }
 
+.btn_contact:hover {
+  cursor: pointer;
+}
 .btn_contact h3 {
   padding: 15px 35px;
   font-weight: lighter;
@@ -70,11 +74,8 @@
     padding-left: 0px;
     align-items: center;
     justify-content: center;
-    ;
   }
-  
 }
-
 
 @media screen and (max-width: 550px) {
   .contact_header h1 {
@@ -110,5 +111,4 @@
     text-decoration: none;
     width: 90vw;
   }
-  
 }

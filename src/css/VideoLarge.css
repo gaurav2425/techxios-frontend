@@ -3,6 +3,23 @@
 }
 
 .video_large {
-  padding-top: 30px;
+  /* padding-top: 30px; */
+  margin-top: 20px;
+  margin-bottom: 15px;
+  background-color: red;
+
   /* padding-bottom: 5px; */
+}
+
+@media only screen and (max-width: 920px) {
+  .video_large {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rosybrown;
+    flex-direction: column;
+  }
+  .video_large video {
+    width: 100%;
+  }
 }

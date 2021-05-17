@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "https://www.techrobot.ml/",
+  baseURL: "https://www.techxios.tk/",
 });
 
 export default instance;

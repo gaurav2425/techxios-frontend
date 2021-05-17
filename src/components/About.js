@@ -20,10 +20,10 @@ function About() {
         </div>
       </div>
       <div className="about_banner">
-        <h1>Tech Robot</h1>
+        <h1>Techxios</h1>
       </div>
       <div className="about_page_text">
-        <h1>About Tech Robot</h1>
+        <h1>About Techxios</h1>
         <div className="social_icons">
           <div className="social_icon">
             <a href="https://www.instagram.com/thetechrobot/">
