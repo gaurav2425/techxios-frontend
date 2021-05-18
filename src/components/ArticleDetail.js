@@ -110,7 +110,8 @@ function ArticleDetail({ fetchUrl }) {
             <h3>{articleDetail.subtitle}</h3>
 
             <h4 style={{ fontWeight: "400" }}>
-              March 2 2021 | {articleDetail.now} EST
+              {articleDetail.month} {articleDetail.dateint} {articleDetail.date}{" "}
+              | {articleDetail.now} EST
             </h4>
 
             <div className="social_icons">
