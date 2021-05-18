@@ -64,7 +64,7 @@ function About() {
             Query or Suggestion About Our Website Please Free to Contact Us at
             techrobot7@gmail.com If you are a marketer looking for ways to
             connect your brand with Tech Robot influential audiences, please
-            contact us at techrobot7@gmail.com or Message Us On Instagram.
+            contact us at techxios7@gmail.com or Message Us On Instagram.
           </h2>
           <br></br>
           <br></br>

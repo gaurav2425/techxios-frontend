@@ -9,6 +9,7 @@ import About from "../src/components/About";
 import Articles from "../src/components/Articles";
 import Article_large from "../src/components/Article_large";
 import ArticleMedium from "./components/ArticleMedium";
+import ReactGa from "react-ga";
 import Footer from "./components/Footer";
 import ShowMore from "./components/ShowMore";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -19,8 +20,15 @@ import Contact from "../src/components/Contact";
 import { Link } from "react-router-dom";
 import ScrollToTop from "../src/components/ScrollToTop";
 import Privacy from "../src/components/Privacy";
+import { useEffect } from "react";
+import React from "react";
 
 function App() {
+  useEffect(() => {
+    ReactGa.initialize("UA-197327528-1");
+
+    ReactGa.pageview("/");
+  }, []);
   return (
     <div className="App">
       <Router>
