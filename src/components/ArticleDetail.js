@@ -274,12 +274,24 @@ function ArticleDetail({ fetchUrl }) {
             <h4 style={{ marginTop: 7 }}>{articleDetail.para8}</h4>
 
             <h4 style={{ marginTop: 7 }}>{articleDetail.para9}</h4>
-            <VideoLarge></VideoLarge>
-            <h4 style={{ marginTop: 7 }}>{articleDetail.para10}</h4>
+            {articleDetail.videosrc === "" ? (
+              <div></div>
+            ) : (
+              <VideoLarge></VideoLarge>
+            )}
+            {articleDetail.para10 === "" ? (
+              <div></div>
+            ) : (
+              <h4 style={{ marginTop: 7 }}>{articleDetail.para10}</h4>
+            )}
 
             <h2>{articleDetail.quote2}</h2>
 
-            <h4 style={{ marginTop: 7 }}>{articleDetail.para11}</h4>
+            {articleDetail.para10 === "" ? (
+              <div></div>
+            ) : (
+              <h4 style={{ marginTop: 7 }}>{articleDetail.para11}</h4>
+            )}
             <br></br>
           </div>
 
