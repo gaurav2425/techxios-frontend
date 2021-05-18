@@ -251,9 +251,8 @@ function ArticleDetail({ fetchUrl }) {
 
           <div className="article_description article_description2 ">
             <h4 style={{ marginTop: 7 }}>{articleDetail.para6}</h4>
-            <br></br>
+
             <h4 style={{ marginTop: 7 }}>{articleDetail.para7}</h4>
-            <br></br>
 
             <div
               style={{
