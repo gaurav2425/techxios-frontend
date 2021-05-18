@@ -128,7 +128,7 @@
 
 @media only screen and (max-width: 920px) {
   .image1 {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     /* margin-bottom: 10px; */
     display: flex;
     flex-direction: column;
@@ -147,7 +147,7 @@
     margin-bottom: 10px;
   }
   .article_description {
-    margin-top: 40px;
+    margin-top: 10px;
     /* background-color: red; */
     margin-left: 0px;
   }
@@ -185,6 +185,7 @@
   }
   .social_icons {
     margin-top: 10px;
+    margin-bottom: 10px;
   }
   .article_description {
     width: 95vw;
