@@ -85,34 +85,34 @@ function Terms() {
           <br></br>
           <h3>License</h3>
           <h4>
-            Unless otherwise stated, Tech Robot and/or its licensors own the
-            intellectual property rights for all material on Tech Robot. All
+            Unless otherwise stated, Techxios and/or its licensors own the
+            intellectual property rights for all material on Techxios. All
             intellectual property rights are reserved. You may access this from
-            Tech Robot for your own personal use subjected to restrictions set
-            in these terms and conditions.
+            Techxios for your own personal use subjected to restrictions set in
+            these terms and conditions.
             <br></br>
           </h4>
           <br></br>
           <h4>
             You must not:
             <div>
-              <li>Republish material from Tech Robot</li>
-              <li>Sell, rent or sub-license material from Tech Robot</li>
-              <li>Reproduce, duplicate or copy material from Tech Robot</li>
-              <li>Redistribute content from Tech Robot</li>
+              <li>Republish material from Techxios</li>
+              <li>Sell, rent or sub-license material from Techxios</li>
+              <li>Reproduce, duplicate or copy material from Techxios</li>
+              <li>Redistribute content from Techxios</li>
             </div>
           </h4>
           <br></br>
           <h4>
             Parts of this website offer an opportunity for users to post and
             exchange opinions and information in certain areas of the website.
-            Tech Robot does not filter, edit, publish or review Comments prior
-            to their presence on the website. Comments do not reflect the views
-            and opinions of Tech Robot,its agents and/or affiliates. Comments
-            reflect the views and opinions of the person who post their views
-            and opinions. To the extent permitted by applicable laws, Tech Robot
-            shall not be liable for the Comments or for any liability, damages
-            or expenses caused and/or suffered as a result of any use of and/or
+            Techxios does not filter, edit, publish or review Comments prior to
+            their presence on the website. Comments do not reflect the views and
+            opinions of Techxios,its agents and/or affiliates. Comments reflect
+            the views and opinions of the person who post their views and
+            opinions. To the extent permitted by applicable laws, Techxios shall
+            not be liable for the Comments or for any liability, damages or
+            expenses caused and/or suffered as a result of any use of and/or
             posting of and/or appearance of the Comments on this website.
           </h4>
           <br></br>
