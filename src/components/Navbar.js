@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "../css/Navbar.css";
 import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
 import { Link } from "react-router-dom";
-import { Button } from "@material-ui/core";
 
 function Navbar() {
   return (

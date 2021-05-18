@@ -2,15 +2,11 @@ import React, { useEffect, useState } from "react";
 import "../css/Articles.css";
 import { Link, useParams } from "react-router-dom";
 import axios from "../axios";
-import { BarLoader } from "react-spinners";
 import { css } from "@emotion/core";
-import Video from "../components/Video";
 import Loading from "../components/Loading";
-import { render } from "@testing-library/react";
 function Articles({ ImageSrc, fetchUrl }) {
   const params = useParams();
   const [trending, setTrending] = useState([]);
-  const [title, setTitle] = useState([]);
   const [loading, setLoading] = useState(false);
   const override = css`
     display: block;

@@ -1,18 +1,12 @@
 import React, { useEffect, useState } from "react";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import FacebookIcon from "@material-ui/icons/Facebook";
-import { BarLoader, ScaleLoader } from "react-spinners";
+import { ScaleLoader } from "react-spinners";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import { css } from "@emotion/core";
 import axios from "../axios";
-import { Timeline, Tweet } from "react-twitter-widgets";
+import { Tweet } from "react-twitter-widgets";
 import VideoLarge from "../components/VideoLarge";
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  withRouter,
-} from "react-router-dom";
 import { Helmet } from "react-helmet";
 import { Link, useParams } from "react-router-dom";
 import "../css/ArticleDetail.css";
@@ -22,8 +16,6 @@ function ArticleDetail({ fetchUrl }) {
   const { id, name } = useParams();
   const [articleDetail, setArticleDetail] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [yt, setYt] = useState([]);
-  const [more, setMore] = useState([]);
   const override = css`
     display: block;
     margin: 0 auto;
