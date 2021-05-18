@@ -1,4 +1,3 @@
-import { LastPage } from "@material-ui/icons";
 import React, { useEffect, useState } from "react";
 import "../css/Pagination.css";
 
@@ -34,7 +33,7 @@ function Pagination({ showPerPage, onPaginationChange, total }) {
   return (
     <div className="pagination_main">
       <div>
-        {counter == 1 ? (
+        {counter === 1 ? (
           ""
         ) : (
           <button className="btn" onClick={() => onButtonClick("prev")}>
@@ -55,7 +54,7 @@ function Pagination({ showPerPage, onPaginationChange, total }) {
         </h4>
       </div>
       <div>
-        {counter == Math.ceil(total / showPerPage) ? (
+        {counter === Math.ceil(total / showPerPage) ? (
           ""
         ) : (
           <button className="btn" onClick={() => onButtonClick("next")}>

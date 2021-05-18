@@ -263,8 +263,6 @@ function ArticleDetail({ fetchUrl }) {
               <div className="tweet_container">
                 <Tweet
                   tweetId={`${articleDetail.tweetid}`}
-                  // options={{ width: "10px", height: "10px" }}
-                  // options={tweetdesign}
                   style={tweetdesign}
                 ></Tweet>
               </div>
