@@ -194,7 +194,7 @@ function ArticleDetail({ fetchUrl }) {
               {/* <br></br> */}
             </div>
             {articleDetail.para3 == "" ? (
-              <div>Hello</div>
+              <div></div>
             ) : (
               <h4 style={{ marginTop: 7 }}>{articleDetail.para3}</h4>
             )}

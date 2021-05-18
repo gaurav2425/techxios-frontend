@@ -2,6 +2,7 @@ import React from "react";
 import "../css/About.css";
 import Nav from "../components/Nav";
 import Navbar from "../components/Navbar";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import TwitterIcon from "@material-ui/icons/Twitter";
@@ -25,34 +26,60 @@ function About() {
       <div className="about_page_text">
         <h1>About Techxios</h1>
         <div className="social_icons">
-          <div className="social_icon">
-            <a href="https://www.instagram.com/thetechrobot/">
+          <div className="icon1">
+            <a href="https://www.facebook.com/Tech-Robot-102211541965232">
               <FacebookIcon
-                style={{ fontSize: 35, color: "#3b5998", cursor: "pointer" }}
+                className="social_icon"
+                style={{
+                  fontSize: 30,
+                  color: "#4267B2",
+
+                  cursor: "pointer",
+                }}
               ></FacebookIcon>
             </a>
           </div>
-          <div className="social_icon">
+
+          <div className="icon2">
             <a href="https://www.instagram.com/thetechrobot/">
               <InstagramIcon
+                className="social_icon"
                 style={{
-                  fontSize: 35,
-                  marginLeft: 7,
-                  color: "#e95950",
+                  fontSize: 30,
+                  color: "#cd486b",
+                  // color: "black",
                   cursor: "pointer",
                 }}
               ></InstagramIcon>
             </a>
           </div>
-          <div className="social_icon">
-            <TwitterIcon
-              style={{
-                fontSize: 35,
-                color: "#00acee",
-                marginLeft: 7,
-                cursor: "pointer",
-              }}
-            ></TwitterIcon>
+
+          <div className="icon3">
+            <a href="https://twitter.com/thetechrobot">
+              <TwitterIcon
+                className="social_icon"
+                style={{
+                  fontSize: 30,
+                  color: "#00acee",
+                  // color: "black",
+                  cursor: "pointer",
+                }}
+              ></TwitterIcon>
+            </a>
+          </div>
+
+          <div className="icon3">
+            <a href="https://www.linkedin.com/in/tech-robot-307a6520a/">
+              <LinkedInIcon
+                className="social_icon"
+                style={{
+                  fontSize: 30,
+                  color: "#0e76a8",
+                  // color: "black",
+                  cursor: "pointer",
+                }}
+              ></LinkedInIcon>
+            </a>
           </div>
         </div>
         <div className="about_info">
