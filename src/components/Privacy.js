@@ -24,21 +24,20 @@ function Privacy() {
           <h3>Privacy policy</h3>
 
           <h4>
-            This privacy policy ("Policy") describes how the personally
-            identifiable information ("Personal Information") you may provide on
-            the thetechrobot.com website ("Website" or "Service") and any of its
-            related products and services (collectively, "Services") is
-            collected, protected and used. It also describes the choices
-            available to you regarding our use of your Personal Information and
-            how you can access and update this information. This Policy is a
-            legally binding agreement between you ("User", "you" or "your") and
-            this Website operator ("Operator", "we", "us" or "our"). By
-            accessing and using the Website and Services, you acknowledge that
-            you have read, understood, and agree to be bound by the terms of
-            this Policy. This Policy does not apply to the practices of
-            companies that we do not own or control, or to individuals that we
-            do not employ or manage. This privacy policy was created with the
-            help of the privacy policy generator.
+            This privacy policy describes how the personally identifiable
+            information ("Personal Information") you may provide on the
+            techxios.com website and any of its related products and services
+            (collectively, "Services") is collected, protected and used. It also
+            describes the choices available to you regarding our use of your
+            Personal Information and how you can access and update this
+            information. This Policy is a legally binding agreement between you
+            ("User", "you" or "your") and this Website operator ("Operator",
+            "we", "us" or "our"). By accessing and using the Website and
+            Services, you acknowledge that you have read, understood, and agree
+            to be bound by the terms of this Policy. This Policy does not apply
+            to the practices of companies that we do not own or control, or to
+            individuals that we do not employ or manage. This privacy policy was
+            created with the help of the privacy policy generator.
           </h4>
           <br></br>
           <h3>Collection of information</h3>
@@ -149,8 +148,8 @@ function Privacy() {
             If you would like to contact us to understand more about this Policy
             or wish to contact us concerning any matter relating to individual
             rights and your Personal Information, you may do so via the contact
-            form or send an email to thetechrobot7@gmail.com. This document was
-            last updated on March 21, 2021
+            form or send an email to techxios@gmail.com. This document was last
+            updated on May 18, 2021
           </h4>
         </div>
 

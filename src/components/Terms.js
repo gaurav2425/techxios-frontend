@@ -43,15 +43,15 @@ function Terms() {
           </div>
           <br></br>
           <br></br>
-          <h3>Welcome to Tech Robot!</h3>
+          <h3>Welcome to Techxios!</h3>
 
           <h4>
             These terms and conditions outline the rules and regulations for the
-            use of Tech Robot's Website, located at www.techrobot.com.
+            use of Techxios Website, located at www.Techxios.com.
           </h4>
           <h4>
             By accessing this website we assume you accept these terms and
-            conditions. Do not continue to use Tech Robot if you do not agree to
+            conditions. Do not continue to use Techxios if you do not agree to
             take all of the terms and conditions stated on this page.
           </h4>
           <h4>
@@ -126,11 +126,11 @@ function Terms() {
           <h3>Feedback and Information</h3>
           <h4>
             Any feedback you provide at this site shall be deemed to be
-            non-confidential. Tech Robot shall be free to use such information
-            on an unrestricted basis.
+            non-confidential. Techxios shall be free to use such information on
+            an unrestricted basis.
           </h4>
           <br></br>
-          <h4>Updated by The Tech Robot Legal Team on March. 20, 2021</h4>
+          <h4>Updated by The Techxios Legal Team on May 18 2021</h4>
         </div>
 
         <br></br>
