@@ -250,9 +250,9 @@ function ArticleDetail({ fetchUrl }) {
           </div>
 
           <div className="article_description article_description2 ">
-            <h4 style={{ marginTop: 7 }}>{articleDetail.para6}</h4>
+            <h4>{articleDetail.para6}</h4>
 
-            <h4 style={{ marginTop: 7 }}>{articleDetail.para7}</h4>
+            <h4>{articleDetail.para7}</h4>
 
             <div
               style={{
@@ -286,7 +286,7 @@ function ArticleDetail({ fetchUrl }) {
 
             <h2>{articleDetail.quote2}</h2>
 
-            {articleDetail.para10 === "" ? (
+            {articleDetail.para11 === "" ? (
               <div></div>
             ) : (
               <h4 style={{ marginTop: 7 }}>{articleDetail.para11}</h4>
