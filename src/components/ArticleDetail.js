@@ -72,10 +72,11 @@ function ArticleDetail({ fetchUrl }) {
                   display: "flex",
                   paddingRight: "5px",
                   paddingLeft: "2px",
+                  paddingTop: "2px",
                 }}
               >
                 <Link to="/" style={{ textDecoration: "none" }}>
-                  <h4 style={{ fontWeight: "normal", color: "black" }}>Home</h4>
+                  <h7 style={{ fontWeight: "normal", color: "black" }}>Home</h7>
                 </Link>
               </div>
 
@@ -89,6 +90,7 @@ function ArticleDetail({ fetchUrl }) {
                   borderRight: "1.5px solid black",
                   justifyContent: "center",
                   display: "flex",
+                  paddingTop: "1px",
                 }}
               >
                 <Link
@@ -98,7 +100,7 @@ function ArticleDetail({ fetchUrl }) {
                     color: "black",
                   }}
                 >
-                  <h4 style={{ fontWeight: "normal" }}>{articleDetail.name}</h4>
+                  <h7 style={{ fontWeight: "normal" }}>{articleDetail.name}</h7>
                 </Link>
               </div>
             </div>
@@ -107,7 +109,9 @@ function ArticleDetail({ fetchUrl }) {
 
             <h3>{articleDetail.subtitle}</h3>
 
-            <h4>March 2 2021 | {articleDetail.now} EST</h4>
+            <h4 style={{ fontWeight: "400" }}>
+              March 2 2021 | {articleDetail.now} EST
+            </h4>
 
             <div className="social_icons">
               <div className="icon1">
