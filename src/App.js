@@ -35,6 +35,11 @@ function App() {
         <Helmet>
           <img typeof="icon" src="logo.png"></img>
           <title>Techxios</title>
+          <meta
+            id="meta-description"
+            name="description"
+            content="The Verge was founded in 2020 and covers the intersection of technology, science,Blogs,News, art, and culture"
+          />
         </Helmet>
         <ScrollToTop></ScrollToTop>
         <Switch>

@@ -59,6 +59,11 @@ function ArticleDetail({ fetchUrl }) {
             >
               <Helmet>
                 <title>{articleDetail.title}</title>
+                <meta
+                  id="meta-description"
+                  name="description"
+                  content={`${articleDetail.para1}`}
+                />
               </Helmet>
               <div
                 style={{
