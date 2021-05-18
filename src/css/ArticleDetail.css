@@ -164,13 +164,13 @@
   .image img {
     /* margin-left: -50px; */
     width: 100vw;
-    height: 60vw;
+    /* height: 60vw; */
   }
 
   .image {
     width: 100%;
     position: relative;
-    height: 60vw;
+    /* height: 60vw; */
   }
   .article_top h1 {
     font-size: 30px;
@@ -199,7 +199,7 @@
     position: relative;
     margin-top: 10px;
     /* margin-bottom: 10px; */
-    height: 60vw;
+    /* height: 60vw; */
     width: 100vw;
     margin-bottom: 20px;
 
@@ -210,7 +210,7 @@
     width: 100vw;
     margin-top: 20px;
 
-    height: 60vw;
+    /* height: 60vw; */
   }
   .image1 h4 {
     font-size: 14px;

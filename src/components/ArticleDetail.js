@@ -282,7 +282,9 @@ function ArticleDetail({ fetchUrl }) {
               <h4 style={{ marginTop: 7 }}>{articleDetail.para10}</h4>
             )}
 
-            <h2>{articleDetail.quote2}</h2>
+            <h2 style={{ marginTop: "25px", marginBottom: "25px" }}>
+              {articleDetail.quote2}
+            </h2>
 
             {articleDetail.para11 === "" ? (
               <div></div>
