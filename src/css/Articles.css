@@ -27,26 +27,7 @@
   flex: 1;
 }
 
-.txt {
-  /* margin-left: 15px; */
-  display: inline;
-  font-size: 17px;
-  letter-spacing: 0px;
-  font-family: "Roboto", sans-serif;
-  margin-top: 6px;
-  color: rgb(255, 255, 255);
-  font-weight: normal;
-  /* background-color: rgb(20, 10, 167); */
-}
-.txt_main {
-  margin-left: 10px;
-  margin-top: 10px;
-}
-.txt:hover {
-  text-decoration: 1px solid white;
-  border-bottom: 1px solid white;
-}
-/* .article_main_right h2 {
+.article_main_right h2 {
   margin-left: 8px;
   display: inline-block;
   font-size: 17px;
@@ -55,8 +36,7 @@
   margin-top: 6px;
   color: rgb(255, 255, 255);
   font-weight: normal;
-  background-color: red;
-} */
+}
 
 .article_main_right h2:hover {
   text-decoration: white 1px solid underline;
