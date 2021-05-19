@@ -243,6 +243,9 @@
   .articel_large_bottom {
     height: 220px;
   }
+  .articel_large_bottom_card {
+    margin-top: -40px;
+  }
 }
 
 @media screen and (max-width: 340px) {
