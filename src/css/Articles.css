@@ -133,7 +133,7 @@
 
 .article_title {
   display: flex;
-  /* background-color: aliceblue; */
+  /* background-color: rgb(68, 159, 240); */
   height: 140px;
 
   max-width: 550px;
@@ -171,4 +171,24 @@
 
 .title_trending {
   font-size: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .article_title {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+  }
+  .txt_title {
+    /* margin-top: -35px; */
+    /* background-color: rgb(18, 240, 173); */
+    width: fit-content;
+    height: 60px;
+  }
+  .title_trending {
+    /* background-color: tan; */
+    /* max-width: 100px; */
+  }
 }
