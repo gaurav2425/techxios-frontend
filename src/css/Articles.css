@@ -133,6 +133,7 @@
 
 .article_title {
   display: flex;
+
   /* background-color: rgb(68, 159, 240); */
   height: 140px;
 
@@ -147,7 +148,6 @@
   align-items: center;
   text-align: center;
   width: 350px;
-
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   /* background-color: aqua; */

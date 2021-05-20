@@ -119,7 +119,7 @@ function ArticleDetail({ fetchUrl }) {
                     style={{
                       fontSize: 30,
                       color: "#4267B2",
-                      background: "red",
+                      // background: "red",
                       borderRadius: "50%",
 
                       cursor: "pointer",
@@ -135,7 +135,7 @@ function ArticleDetail({ fetchUrl }) {
                     style={{
                       fontSize: 30,
                       color: "#cd486b",
-                      background: "red",
+                      // background: "red",
                       borderRadius: "50%",
                       // color: "black",
                       cursor: "pointer",
@@ -150,8 +150,8 @@ function ArticleDetail({ fetchUrl }) {
                     className="social_icon"
                     style={{
                       fontSize: 30,
-                      color: "white",
-                      background: "#00acee",
+                      color: "#00acee",
+                      // background: "#00acee",
                       borderRadius: "50%",
                       // color: "black",
                       cursor: "pointer",
@@ -168,8 +168,8 @@ function ArticleDetail({ fetchUrl }) {
                       fontSize: 30,
                       color: "#0e76a8",
                       // color: "black",
-                      color: "white",
-                      background: "#0e76a8",
+                      // color: "white",
+                      // background: "#0e76a8",
                       borderRadius: "50%",
                       cursor: "pointer",
                     }}

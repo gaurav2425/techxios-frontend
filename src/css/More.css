@@ -49,10 +49,8 @@
 
 @media only screen and (max-width: 400px) {
   .box h1 {
-    font-size: 20px;
-    width: 190px;
+    font-size: 30px;
+    width: 165px;
     margin-left: 10px;
-
-    /* background-color: rosybrown; */
   }
 }
