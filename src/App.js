@@ -39,6 +39,7 @@ function App() {
             name="google-site-verification"
             content="QED3FwFhxldcYbx0pwYwdKc5tWRQykfEuKSLtG0eIg0"
           />
+
           <meta
             id="meta-description"
             name="description"
