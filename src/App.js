@@ -36,6 +36,10 @@ function App() {
           <img typeof="icon" src="logo.png"></img>
           <title>Techxios</title>
           <meta
+            name="google-site-verification"
+            content="QED3FwFhxldcYbx0pwYwdKc5tWRQykfEuKSLtG0eIg0"
+          />
+          <meta
             id="meta-description"
             name="description"
             content="The Verge was founded in 2020 and covers the intersection of technology, science,Blogs,News, art, and culture"
