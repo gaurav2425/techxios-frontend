@@ -34,7 +34,7 @@ function Footer() {
             India
           </h4>
           <h2>New Business</h2>
-          <h4>thetechrobot7@gmail.com</h4>
+          <h4>techxiosmedia@gmail.com</h4>
         </div>
 
         <div className="footer_sec4">
@@ -52,7 +52,7 @@ function Footer() {
             <h4>Instagram</h4>
           </a>
           <a
-            href="https://twitter.com/thetechrobot"
+            href="https://twitter.com/techxios"
             style={{ textDecoration: "none" }}
           >
             <h4>Twitter</h4>

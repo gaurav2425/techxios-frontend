@@ -55,7 +55,7 @@ function About() {
           </div>
 
           <div className="icon3">
-            <a href="https://twitter.com/thetechrobot">
+            <a href="https://twitter.com/techxios">
               <TwitterIcon
                 className="social_icon"
                 style={{
@@ -84,14 +84,14 @@ function About() {
         </div>
         <div className="about_info">
           <h2>
-            TechRobot's mission is to empower the most talented web voices and
+            Techxios mission is to empower the most talented web voices and
             their audiences.
             <br></br>
-            This Website is Developed By a Developer in India. If You Have Any
-            Query or Suggestion About Our Website Please Free to Contact Us at
-            techrobot7@gmail.com If you are a marketer looking for ways to
-            connect your brand with Tech Robot influential audiences, please
-            contact us at techxios7@gmail.com or Message Us On Instagram.
+            This website is Developed by a developer in India. If you yave ny
+            query or suggestion about Our website please free to contact us at
+            techxiosmedia@gmail.com If you are a marketer looking for ways to
+            connect your brand with Techxios influential audiences, please
+            contact us at techxiosmedia@gmail.com or message us on Instagram.
           </h2>
           <br></br>
           <br></br>

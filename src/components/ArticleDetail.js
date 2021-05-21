@@ -145,7 +145,7 @@ function ArticleDetail({ fetchUrl }) {
               </div>
 
               <div className="icon3">
-                <a href="https://twitter.com/thetechrobot">
+                <a href="https://twitter.com/techxios">
                   <TwitterIcon
                     className="social_icon"
                     style={{

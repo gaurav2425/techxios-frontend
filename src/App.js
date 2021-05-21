@@ -411,13 +411,15 @@ function App() {
             <div className="page_info">
               <h3>Gaming</h3>
               <h5>
-                Once a modest online seller of books, Amazon is now one of the
-                largest companies in the world, and its CEO, Jeff Bezos, is the
-                world’s most wealthy person. We track developments, both of
-                Bezos and Amazon, its as a video producer, the popular Prime
-                service, as well as its own hardware, which includes the Amazon
-                Kindle e-reader, Amazon Kindle Fire tablets, and Amazon Fire TV
-                streaming boxes.
+                A game is a structured form of play, usually undertaken for
+                entertainment or fun, and sometimes used as an educational
+                tool.Games are distinct from work, which is usually carried out
+                for remuneration, and from art, which is more often an
+                expression of aesthetic or ideological elements. However, the
+                distinction is not clear-cut, and many games are also considered
+                to be work (such as professional players of spectator sports or
+                games) or art (such as jigsaw puzzles or games involving an
+                artistic layout such as Mahjong, solitaire, or some video games)
               </h5>
             </div>
             <div className="page_body">
@@ -446,13 +448,14 @@ function App() {
             <div className="page_info">
               <h3>Films</h3>
               <h5>
-                Once a modest online seller of books, Amazon is now one of the
-                largest companies in the world, and its CEO, Jeff Bezos, is the
-                world’s most wealthy person. We track developments, both of
-                Bezos and Amazon, its growth as a video producer, the popular
-                Prime service, as well as its own hardware, which includes the
-                Amazon Kindle e-reader, Amazon Kindle Fire tablets, and Amazon
-                Fire TV streaming boxes.
+                A film, also called a movie, motion picture or moving picture,
+                is a work of visual art used to simulate experiences that
+                communicate ideas, stories, perceptions, feelings, beauty, or
+                atmosphere through the use of moving images. These images are
+                generally accompanied by sound, and more rarely, other sensory
+                stimulations.[1] The word "cinema", short for cinematography, is
+                often used to refer to filmmaking and the film industry, and to
+                the art form that is the result of it.
               </h5>
             </div>
             <div className="page_body">
@@ -481,13 +484,13 @@ function App() {
             <div className="page_info">
               <h3>Television</h3>
               <h5>
-                Once a modest online seller of books, Amazon is now one of the
-                largest companies in the world, and its CEO, Jeff Bezos, is the
-                world’s most wealthy person. We track developments, both of
-                Bezos and Amazon, its growth as a video producer, the popular
-                Prime service, as well as its own hardware, which includes the
-                Amazon Kindle e-reader, Amazon Kindle Fire tablets, and Amazon
-                Fire TV streaming boxes.
+                Television (TV), sometimes shortened to tele or telly, is a
+                telecommunication medium used for transmitting moving images in
+                monochrome (black and white), or in color, and in two or three
+                dimensions and sound. The term can refer to a television set, a
+                television show, or the medium of television transmission.
+                Television is a mass medium for advertising, entertainment,
+                news, and sports.
               </h5>
             </div>
             <div className="page_body">
@@ -516,13 +519,12 @@ function App() {
             <div className="page_info">
               <h3>Sports</h3>
               <h5>
-                Once a modest online seller of books, Amazon is now one of the
-                largest companies in the world, and its CEO, Jeff Bezos, is the
-                world’s most wealthy person. We track developments, both of
-                Bezos and Amazon, its growth as a video producer, the popular
-                Prime service, as well as its own hardware, which includes the
-                Amazon Kindle e-reader, Amazon Kindle Fire tablets, and Amazon
-                Fire TV streaming boxes.
+                Sport pertains to any form of competitive physical activity or
+                game[1] that aims to use, maintain or improve physical ability
+                and skills while providing enjoyment to participants and, in
+                some cases, entertainment to spectators.[2] Sports can, through
+                casual or organized participation, improve one's physical
+                health.
               </h5>
             </div>
             <div className="page_body">
@@ -551,13 +553,13 @@ function App() {
             <div className="page_info">
               <h3>Netflix</h3>
               <h5>
-                Once a modest online seller of books, Amazon is now one of the
-                largest companies in the world, and its CEO, Jeff Bezos, is the
-                world’s most wealthy person. We track developments, both of
-                Bezos and Amazon, its growth as a video producer, the popular
-                Prime service, as well as its own hardware, which includes the
-                Amazon Kindle e-reader, Amazon Kindle Fire tablets, and Amazon
-                Fire TV streaming boxes.
+                Netflix was founded in 1997 by Reed Hastings and Marc Randolph
+                in Scotts Valley, California. The company's primary business is
+                a subscription-based streaming service offering online streaming
+                from a library of films and television series, including those
+                produced in-house.[9] In April 2021, Netflix had 208 million
+                subscribers, including 74 million in the United States and
+                Canada.
               </h5>
             </div>
             <div className="page_body">
@@ -586,13 +588,15 @@ function App() {
             <div className="page_info">
               <h3>Twitter</h3>
               <h5>
-                Once a modest online seller of books, Amazon is now one of the
-                largest companies in the world, and its CEO, Jeff Bezos, is the
-                world’s most wealthy person. We track developments, both of
-                Bezos and Amazon, its growth as a video producer, the popular
-                Prime service, as well as its own hardware, which includes the
-                Amazon Kindle e-reader, Amazon Kindle Fire tablets, and Amazon
-                Fire TV streaming boxes.
+                Twitter is an American microblogging and social networking
+                service on which users post and interact with messages known as
+                "tweets". Registered users can post, like, and retweet tweets,
+                but unregistered users can only read them. Users access Twitter
+                through its website interface or its mobile-device application
+                software ("app"), though the service could also be accessed via
+                SMS before April 2020.[13] Twitter, Inc. is based in San
+                Francisco, California, and has more than 25 offices around the
+                world
               </h5>
             </div>
 
@@ -700,13 +704,16 @@ function App() {
             <div className="page_info">
               <h3>Instagram</h3>
               <h5>
-                Once a modest online seller of books, Amazon is now one of the
-                largest companies in the world, and its CEO, Jeff Bezos, is the
-                world’s most wealthy person. We track developments, both of
-                Bezos and Amazon, its growth as a video producer, the popular
-                Prime service, as well as its own hardware, which includes the
-                Amazon Kindle e-reader, Amazon Kindle Fire tablets, and Amazon
-                Fire TV streaming boxes.
+                Instagram (commonly abbreviated to IG or Insta)[8] is an
+                American photo and video sharing social networking service
+                created by Kevin Systrom and Mike Krieger. In April 2012,
+                Facebook acquired the service for approximately US$1 billion in
+                cash and stock. The app allows users to upload media that can be
+                edited with filters and organized by hashtags and geographical
+                tagging. Posts can be shared publicly or with pre-approved
+                followers. Users can browse other users' content by tags and
+                locations and view trending content. Users can like photos and
+                follow other users to add their content to a personal fee
               </h5>
             </div>
 
@@ -738,13 +745,14 @@ function App() {
             <div className="page_info">
               <h3>Youtube</h3>
               <h5>
-                Once a modest online seller of books, Amazon is now one of the
-                largest companies in the world, and its CEO, Jeff Bezos, is the
-                world’s most wealthy person. We track developments, both of
-                Bezos and Amazon, its growth as a video producer, the popular
-                Prime service, as well as its own hardware, which includes the
-                Amazon Kindle e-reader, Amazon Kindle Fire tablets, and Amazon
-                Fire TV streaming boxes.
+                YouTube is an online video platform owned by Google. In total,
+                users watch more than one billion hours of YouTube videos each
+                day,and hundreds of hours of video content are uploaded to
+                YouTube servers every minute.YouTube provides several ways to
+                watch videos, including the website, the mobile apps, and
+                permitting other websites to embed them. Available content
+                includes music videos, video clips, short and documentary films,
+                audio recordings, movie trailers, live streams, and video blogs.
               </h5>
             </div>
 
@@ -913,13 +921,11 @@ function App() {
             <div className="page_info">
               <h3>Cybersecurity</h3>
               <h5>
-                Once a modest online seller of books, Amazon is now one of the
-                largest companies in the world, and its CEO, Jeff Bezos, is the
-                world’s most wealthy person. We track developments, both of
-                Bezos and Amazon, its growth as a video producer, the popular
-                Prime service, as well as its own hardware, which includes the
-                Amazon Kindle e-reader, Amazon Kindle Fire tablets, and Amazon
-                Fire TV streaming boxes.
+                Computer security, cybersecurity or information technology
+                security (IT security) is the protection of computer systems and
+                networks from information disclosure, theft of or damage to
+                their hardware, software, or electronic data, as well as from
+                the disruption or misdirection of the services they provide.
               </h5>
             </div>
             <div className="page_body">
