@@ -2,6 +2,9 @@ import React from "react";
 import "../css/Navbar.css";
 import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
 import { Link } from "react-router-dom";
+import TwitterIcon from "@material-ui/icons/Twitter";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import InstagramIcon from "@material-ui/icons/Instagram";
 
 function Navbar() {
   return (
@@ -179,6 +182,71 @@ function Navbar() {
           </ul>
         </li>
       </ul>
+
+      <div
+        style={{
+          display: "flex",
+          // background: "red",
+          height: "40px",
+          width: "150px",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <div className="icon1">
+          <a href="https://www.facebook.com/Tech-Robot-102211541965232">
+            <FacebookIcon
+              className="social_icon"
+              style={{
+                fontSize: 30,
+                marginTop: "5px",
+                color: "#4267B2",
+                // background: "red",
+                borderRadius: "50%",
+
+                cursor: "pointer",
+              }}
+            ></FacebookIcon>
+          </a>
+        </div>
+
+        <div className="icon2">
+          <a href="https://www.instagram.com/thetechrobot/">
+            <InstagramIcon
+              className="social_icon"
+              style={{
+                marginTop: "5px",
+                fontSize: 30,
+                color: "#cd486b",
+                // background: "red",
+                borderRadius: "50%",
+                marginLeft: "10px",
+                // color: "black",
+
+                cursor: "pointer",
+              }}
+            ></InstagramIcon>
+          </a>
+        </div>
+
+        <div className="icon3">
+          <a href="https://twitter.com/techxios">
+            <TwitterIcon
+              className="social_icon"
+              style={{
+                marginTop: "5px",
+                fontSize: 30,
+                color: "#00acee",
+                // background: "#00acee",
+                borderRadius: "50%",
+                marginLeft: "10px",
+                // color: "black",
+                cursor: "pointer",
+              }}
+            ></TwitterIcon>
+          </a>
+        </div>
+      </div>
     </div>
   );
 }

@@ -135,6 +135,7 @@ function ArticleDetail({ fetchUrl }) {
                     style={{
                       fontSize: 30,
                       color: "#cd486b",
+
                       // background: "red",
                       borderRadius: "50%",
                       // color: "black",
