@@ -1088,14 +1088,14 @@ function App() {
               </div>
             </div>
 
-            <AdSense.Google
+            {/* <AdSense.Google
               client="ca-pub-5935658665646654"
               slot="6080859207"
               style={{ display: "block" }}
               format="auto"
               responsive="true"
               layoutKey="-gw-1+2a-9x+5c"
-            />
+            /> */}
 
             <div className="blog_body_main">
               <div className="blog_body">
