@@ -22,6 +22,7 @@ import ScrollToTop from "../src/components/ScrollToTop";
 import Privacy from "../src/components/Privacy";
 import { useEffect } from "react";
 import React from "react";
+import AdSense from "react-adsense";
 
 function App() {
   useEffect(() => {
@@ -1073,6 +1074,7 @@ function App() {
             <div className="blog_banner">
               <BlogBanner></BlogBanner>
             </div>
+
             <div style={{ color: "white", background: "grey" }}>
               <div className="navbar2">
                 <Nav></Nav>
@@ -1085,6 +1087,15 @@ function App() {
                 <Navbar></Navbar>
               </div>
             </div>
+
+            <AdSense.Google
+              client="ca-pub-5935658665646654"
+              slot="6080859207"
+              style={{ display: "block" }}
+              format="auto"
+              responsive="true"
+              layoutKey="-gw-1+2a-9x+5c"
+            />
 
             <div className="blog_body_main">
               <div className="blog_body">
