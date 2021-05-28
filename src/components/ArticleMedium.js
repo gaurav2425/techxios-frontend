@@ -64,11 +64,7 @@ function ArticleMedium({ fetchUrl }) {
                     to={`/${newone.name}/${newone.id}/`}
                     style={{ textDecoration: "none", color: "white" }}
                   >
-                    {newone.title.length < 75 ? (
-                      <h5 style={{ color: "#e2127A" }}>{newone.title}</h5>
-                    ) : (
-                      <h5>{newone.title.slice(0, 75)}...</h5>
-                    )}
+                    <h5 style={{ color: "#e2127A" }}>{newone.title}</h5>
                   </Link>
                 </marquee>
                 <br></br>
