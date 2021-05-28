@@ -83,7 +83,7 @@ function ArticleMedium({ fetchUrl }) {
             return (
               <div className="article_medium">
                 <div className="article_top">
-                  <img src={`http://127.0.0.1:8000${newone.thumbnail}`}></img>
+                  <img src={`${newone.thumbnail}`}></img>
                 </div>
                 <div className="article_bottom">
                   <Link

@@ -49,7 +49,7 @@ function App() {
         </Helmet>
         <ScrollToTop></ScrollToTop>
         <Switch>
-          <Route path="/:name/:id" exact>
+          {/* <Route path="/:name/:id" exact>
             <div style={{ color: "white", background: "grey" }}>
               <div className="navbar2">
                 <Nav></Nav>
@@ -61,10 +61,10 @@ function App() {
               </div>
             </div>
             <div className="page_info">
-              {/* <h3>Google Details</h3> */}
+          
               <ArticleDetail></ArticleDetail>
             </div>
-          </Route>
+          </Route> */}
 
           <Route path="/:name/:id" exact>
             <div style={{ color: "white", background: "grey" }}>
