@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Rajdhani:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oi&family=Teko:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cinzel:wght@900&display=swap");
 .blog_banner {
   width: 100%;
   background-color: #ee0000;
@@ -29,7 +30,7 @@
 }
 
 .date_time h4 {
-  margin-top: -45px;
+  margin-top: -25px;
   font-size: 25px;
   text-orientation: sideways;
   font-family: "Teko", sans-serif;
@@ -41,11 +42,13 @@
 
 .blog_banner h1 {
   font-weight: 900;
-  letter-spacing: 2px;
+
   /* letter-spacing: 1px; */
   font-family: "Oi", cursive;
-  font-size: 135px;
+  font-size: 85px;
   font-family: "Teko", sans-serif;
   position: static;
   color: rgb(255, 255, 255);
+  font-family: "Alfa Slab One", cursive;
+  font-family: "Cinzel", serif;
 }
