@@ -38,7 +38,7 @@ function BlogBanner() {
       <div className="date_time">
         <h4>
           {Day[currDay]}, {Months[currMonth]} {currDate}, {currYear} | DIAMOND
-          Skulls
+          SkULLS
         </h4>
       </div>
     </div>
