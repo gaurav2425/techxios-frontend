@@ -15,18 +15,18 @@ function BlogBanner() {
     "saturday",
   ];
   const Months = [
-    "jan",
-    "feb",
-    "March",
-    "april",
-    "may",
-    "jun",
-    "jul",
-    "aug",
-    "sept",
-    "oct",
-    "nov",
-    "dec",
+    "JANUARY",
+    "FEBRURY",
+    "MARCH",
+    "APRIL",
+    "MAY",
+    "JUNE",
+    "JULY",
+    "AUGUST",
+    "SEPTEMBER",
+    "OCTOBER",
+    "NOVEMBER",
+    "DECEMBER",
   ];
   return (
     <div className="blog_banner">
