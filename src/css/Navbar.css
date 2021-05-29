@@ -54,7 +54,9 @@ ul ul {
   text-align: center;
   background: none;
 }
-
+.one:hover .arrow {
+  color: rgb(235, 3, 177);
+}
 ul li ul li {
   font-size: 12px;
   display: none;
@@ -77,6 +79,7 @@ ul li ul li:hover {
   background-color: aliceblue;
   color: black;
   cursor: pointer;
+  color: rgb(235, 3, 177);
 }
 
 ul li ul li a:hover {
@@ -98,6 +101,7 @@ ul li:hover ul li {
 .one_icon {
   position: relative;
   background: blanchedalmond;
+  background: red;
   top: 7px;
   color: rgb(235, 3, 177);
 }

@@ -11,9 +11,10 @@ import { Helmet } from "react-helmet";
 import { Link, useParams } from "react-router-dom";
 import "../css/ArticleDetail.css";
 import More from "../components/More";
+import ReactGa from "react-ga";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 function ArticleDetail({ fetchUrl }) {
-  const { id, name } = useParams();
+  const { id, name, title } = useParams();
   const [articleDetail, setArticleDetail] = useState([]);
   const [loading, setLoading] = useState(false);
   const override = css`
@@ -38,6 +39,12 @@ function ArticleDetail({ fetchUrl }) {
     }
     fetchData();
   }, [fetchUrl]);
+
+  useEffect(() => {
+    ReactGa.initialize("UA-197327528-1");
+
+    ReactGa.pageview(`${name}/${id}`);
+  }, []);
 
   return (
     <div>
