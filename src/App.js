@@ -22,7 +22,6 @@ import ScrollToTop from "../src/components/ScrollToTop";
 import Privacy from "../src/components/Privacy";
 import { useEffect } from "react";
 import React from "react";
-import AdSense from "react-adsense";
 
 function App() {
   useEffect(() => {

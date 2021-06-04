@@ -4,7 +4,6 @@ import React, { useEffect, useState } from "react";
 import axios from "../axios";
 import "../css/ArticleMedium.css";
 import Loading from "../components/Loading";
-import { BarLoader } from "react-spinners";
 
 function ArticleMedium({ fetchUrl }) {
   const params = useParams();
