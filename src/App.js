@@ -37,14 +37,9 @@ function App() {
           <img typeof="icon" src="logo.png"></img>
           <title>Techxios</title>
           <meta
-            name="google-site-verification"
-            content="QED3FwFhxldcYbx0pwYwdKc5tWRQykfEuKSLtG0eIg0"
-          />
-
-          <meta
             id="meta-description"
             name="description"
-            content="The Verge was founded in 2020 and covers the intersection of technology, science,Blogs,News, art, and culture"
+            content="The Techxios was founded in 2020 and covers the intersection of technology, science,Blogs,News, art, and culture"
           />
         </Helmet>
         <ScrollToTop></ScrollToTop>
@@ -405,6 +400,19 @@ function App() {
           </Route>
 
           <Route path="/gaming" exact>
+            <Helmet>
+              <img typeof="icon" src="logo.png"></img>
+              <title>Gaming</title>
+              <meta
+                id="meta-description"
+                name="description"
+                content="A game is a structured form of play, usually undertaken for
+            entertainment or fun, and sometimes used as an educational
+            tool.Games are distinct from work, which is usually carried out
+            for remuneration, and from art, which is more often an
+            expression of aesthetic or ideological elements."
+              />
+            </Helmet>
             <div style={{ color: "white", background: "grey" }}>
               <div className="navbar2">
                 <Nav></Nav>
@@ -955,6 +963,17 @@ function App() {
 
             <Helmet>
               <title>Microsoft - Techxios</title>
+              <meta
+                id="meta-description"
+                name="description"
+                content="Microsoft Corporation is an American multinational technology
+            company with headquarters in Redmond, Washington. It develops,
+            manufactures, licenses, supports, and sells computer software,
+            consumer electronics, personal computers, and related services.
+            Its best known software products are the Microsoft Windows line
+            of operating systems, the Microsoft Office suite, and the
+            Internet Explorer and Edge web browsers."
+              />
             </Helmet>
 
             <div className="page_info">
