@@ -172,6 +172,12 @@
 .title_trending {
   font-size: 10px;
 }
+/* .title_trending h1 {
+  background: linear-gradient(to right, #30cfd0 0%, #5700c283 100%);
+  background: linear-gradient(to right, #df6e12 0%, #b41291 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
 
 @media screen and (max-width: 600px) {
   .article_title {

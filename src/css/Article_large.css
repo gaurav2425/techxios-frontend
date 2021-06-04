@@ -28,14 +28,14 @@
     border: dotted 1px wheat;
   }
   .articel_large_bottom {
-    height: 170px;
-    /* background: red; */
+    height: auto;
   }
   .articel_large_bottom {
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(238, 22, 22); */
     height: fit-content;
     flex: 1;
-    height: 150px;
+    height: auto;
+    padding-bottom: 20px;
     justify-content: center;
     display: flex;
     border-bottom: 1px rgb(255, 255, 255) dotted;
@@ -70,7 +70,7 @@
     background-color: rgb(0, 0, 0);
     height: fit-content;
     flex: 1;
-    height: 150px;
+    height: auto;
     justify-content: center;
     display: flex;
     border-bottom: 1px rgb(255, 255, 255) dotted;
@@ -123,7 +123,7 @@
     width: 40vw;
   }
   .articel_large_bottom {
-    height: 150px;
+    height: auto;
     background-color: rgb(37, 14, 59);
   }
 }
@@ -146,7 +146,7 @@
     width: 40vw;
   }
   .articel_large_bottom {
-    height: 180px;
+    height: auto;
     background-color: rgb(0, 0, 0);
   }
 }
@@ -166,19 +166,23 @@
   .article_large {
     width: 550px;
     margin-top: 25px;
-    height: 500px;
+    height: auto;
     display: flex;
     flex-direction: column;
   }
 
   .articel_large_top {
-    min-width: 550px;
-    max-width: 550px;
-    height: 350px;
+    width: 550px;
+
+    height: auto;
   }
   .article_large img {
     width: 550px;
-    height: 350px;
+    height: auto;
+  }
+  .articel_large_bottom {
+    /* background-color: blue; */
+    padding-bottom: 15px;
   }
 
   .articel_large_bottom_card {
@@ -190,7 +194,8 @@
     height: fit-content;
   }
   .articel_large_bottom {
-    height: 180px;
+    height: 30px;
+    /* background-color: blue; */
   }
   .articel_large_bottom_card {
     width: 90%;
@@ -200,7 +205,7 @@
 }
 @media screen and (max-width: 570px) {
   .article_large {
-    height: 70vw;
+    height: auto;
     display: block;
     max-width: 90vw;
     min-width: 70vw;
@@ -210,12 +215,12 @@
   }
 
   .articel_large_top {
-    height: 50vw;
+    height: auto;
     max-width: 90vw;
     min-width: 70vw;
   }
   .article_large img {
-    height: 50vw;
+    height: auto;
     max-width: 90vw;
     min-width: 70vw;
   }
@@ -237,11 +242,11 @@
 
 @media screen and (max-width: 400px) {
   .article_large {
-    height: 80vw;
+    height: auto;
   }
 
   .articel_large_bottom {
-    height: 220px;
+    height: auto;
   }
   .articel_large_bottom_card {
     margin-top: -40px;
