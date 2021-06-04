@@ -126,7 +126,6 @@ function ArticleDetail({ fetchUrl }) {
                     style={{
                       fontSize: 30,
                       color: "#4267B2",
-                      // background: "red",
                       borderRadius: "50%",
 
                       cursor: "pointer",
@@ -189,26 +188,29 @@ function ArticleDetail({ fetchUrl }) {
           <br />
           <br />
 
-          <div className="image">
-            <img src={`${articleDetail.thumbnail}`}></img>
-            <h4
-              style={{
-                textAlign: "start",
-                color: "#646464",
-                fontWeight: 300,
-                fontSize: "15px",
-              }}
-            >
-              {articleDetail.thumbnailcredit}
-            </h4>
-          </div>
+          {articleDetail.thumbnail == null ? (
+            <div></div>
+          ) : (
+            <div className="image">
+              <img src={`${articleDetail.thumbnail}`} alt=""></img>
+              <h4
+                style={{
+                  textAlign: "start",
+                  color: "#646464",
+                  fontWeight: 300,
+                  fontSize: "15px",
+                }}
+              >
+                {articleDetail.thumbnailcredit}
+              </h4>
+            </div>
+          )}
           <div className="article_description">
             <h4 className="para1">{articleDetail.para1}</h4>
             <div className="para2_quote1">
               <h4 style={{ marginTop: 7 }}>{articleDetail.para2}</h4>
-              {/* <br></br> */}
+
               <h2>{articleDetail.quote1}</h2>
-              {/* <br></br> */}
             </div>
             {articleDetail.para3 == "" ? (
               <div></div>
@@ -252,17 +254,14 @@ function ArticleDetail({ fetchUrl }) {
             <h4 style={{ marginTop: 7 }}>{articleDetail.para5}</h4>
           </div>
 
-          <div
-            className="image1"
-            style={
-              {
-                // background: "red",
-              }
-            }
-          >
-            <img src={`${articleDetail.image}`}></img>
-            <h4>{articleDetail.imagecredit}</h4>
-          </div>
+          {articleDetail.image == null ? (
+            <div></div>
+          ) : (
+            <div className="image1">
+              <img src={`${articleDetail.image}`}></img>
+              <h4>{articleDetail.imagecredit}</h4>
+            </div>
+          )}
 
           <div className="article_description article_description2 ">
             <h4>{articleDetail.para6}</h4>

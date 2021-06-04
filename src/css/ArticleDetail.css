@@ -9,6 +9,8 @@
   .image {
     margin-top: -30px;
     margin-left: -150px;
+    /* height: auto; */
+
     /* background-color: red; */
   }
   .para2_quote1 h2 {
@@ -108,7 +110,7 @@
 
 .article_top h4 {
   position: relative;
-  margin-top: 17px;
+  margin-top: 5px;
   font-weight: 300;
 }
 
