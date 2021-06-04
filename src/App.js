@@ -995,6 +995,7 @@ function App() {
 
             <div className="page_info">
               <h3>Google</h3>
+              <AdSense></AdSense>
               <h5>
                 Google is an American multinational technology company that
                 specializes in Internet-related services and products, which
