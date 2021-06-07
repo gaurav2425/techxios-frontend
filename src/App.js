@@ -1128,12 +1128,12 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="colorbar_part">
+              {/* <div className="colorbar_part">
                 <ColorBar></ColorBar>
               </div>
               <div className="white_part">
                 <Whitepart></Whitepart>
-              </div>
+              </div> */}
             </div>
 
             <div className="showmore_container">
