@@ -370,3 +370,15 @@
     width: 0px;
   }
 }
+
+.white_part {
+  justify-content: center;
+  display: flex;
+  background: black;
+}
+
+.colorbar_part {
+  justify-content: center;
+  display: flex;
+  background: black;
+}

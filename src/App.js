@@ -10,6 +10,7 @@ import Articles from "../src/components/Articles";
 import Article_large from "../src/components/Article_large";
 import ArticleMedium from "./components/ArticleMedium";
 import ReactGa from "react-ga";
+import Whitepart from "../src/components/Whitepart";
 import Footer from "./components/Footer";
 import ShowMore from "./components/ShowMore";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -21,6 +22,7 @@ import { Link } from "react-router-dom";
 import ScrollToTop from "../src/components/ScrollToTop";
 import Privacy from "../src/components/Privacy";
 import { useEffect } from "react";
+import ColorBar from "../src/components/ColorBar";
 import React from "react";
 
 function App() {
@@ -1125,6 +1127,12 @@ function App() {
                     <ArticleMedium fetchUrl={requests.NewList}></ArticleMedium>
                   </div>
                 </div>
+              </div>
+              <div className="colorbar_part">
+                <ColorBar></ColorBar>
+              </div>
+              <div className="white_part">
+                <Whitepart></Whitepart>
               </div>
             </div>
 

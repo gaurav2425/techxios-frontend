@@ -22,13 +22,13 @@
   margin-top: 25px;
 }
 .article_medium .article_top {
-  height: 220px;
+  /* height: 220px; */
   margin-top: 0px;
   background: rgb(32, 32, 32);
   width: 340px;
 }
 .article_medium .article_top img {
-  height: 220px;
+  /* height: 220px; */
   width: 340px;
 }
 .article_medium .article_bottom {
@@ -59,12 +59,12 @@
 }
 @media screen and (max-width: 400px) {
   .article_medium {
-    height: 290px;
+    /* height: 290px; */
     width: 90vw;
   }
 
   .article_medium .article_top {
-    height: 200px;
+    /* height: 200px; */
     margin-top: 0px;
     width: 90vw;
   }

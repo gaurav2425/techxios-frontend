@@ -1,0 +1,8 @@
+.color_bar {
+  background: linear-gradient(
+    135deg,
+    rgb(255, 230, 0),
+    rgb(255, 3, 213) 60%,
+    rgb(248, 226, 27)
+  );
+}
