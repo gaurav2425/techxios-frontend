@@ -8,6 +8,7 @@ function Pagination({ showPerPage, onPaginationChange, total }) {
   useEffect(() => {
     const value = showPerPage * counter;
     onPaginationChange(value - showPerPage, value);
+
     window.scrollTo({
       top: 0,
       behavior: "smooth",

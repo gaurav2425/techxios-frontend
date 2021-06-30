@@ -30,7 +30,7 @@ function Articles({ ImageSrc, fetchUrl }) {
     <div>
       {loading ? (
         <div>
-          {trending.slice(0, 2).map((trending) => {
+          {trending.slice(0, 6).map((trending) => {
             return (
               <div className="article_main">
                 <div className="article_main_left">
@@ -59,7 +59,7 @@ function Articles({ ImageSrc, fetchUrl }) {
             );
           })}
 
-          {trending.slice(2, 3).map((trending) => {
+          {/* {trending.slice(2, 3).map((trending) => {
             return (
               <div className="article_title">
                 <Link
@@ -81,9 +81,9 @@ function Articles({ ImageSrc, fetchUrl }) {
                 </div>
               </div>
             );
-          })}
+          })} */}
 
-          {trending.slice(3, 6).map((trending) => {
+          {/* {trending.slice(3, 6).map((trending) => {
             return (
               <div className="article_main">
                 <div className="article_main_left">
@@ -110,9 +110,9 @@ function Articles({ ImageSrc, fetchUrl }) {
                 </div>
               </div>
             );
-          })}
+          })} */}
 
-          {trending.slice(6, 7).map((trending) => {
+          {/* {trending.slice(6, 7).map((trending) => {
             return (
               <div className="article_title">
                 <Link
@@ -136,9 +136,9 @@ function Articles({ ImageSrc, fetchUrl }) {
                 </div>
               </div>
             );
-          })}
+          })} */}
 
-          {trending.slice(7, 11).map((trending) => {
+          {/* {trending.slice(7, 11).map((trending) => {
             return (
               <div className="article_main">
                 <div className="article_main_left">
@@ -165,9 +165,9 @@ function Articles({ ImageSrc, fetchUrl }) {
                 </div>
               </div>
             );
-          })}
+          })} */}
 
-          {trending.slice(11, 14).map((trending) => {
+          {/* {trending.slice(11, 14).map((trending) => {
             return (
               <div className="article_title">
                 <Link
@@ -191,9 +191,9 @@ function Articles({ ImageSrc, fetchUrl }) {
                 </div>
               </div>
             );
-          })}
+          })} */}
 
-          {trending.slice(14).map((trending) => {
+          {/* {trending.slice(14).map((trending) => {
             return (
               <div className="article_main">
                 <div className="article_main_left">
@@ -220,7 +220,7 @@ function Articles({ ImageSrc, fetchUrl }) {
                 </div>
               </div>
             );
-          })}
+          })} */}
         </div>
       ) : (
         <div

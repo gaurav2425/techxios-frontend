@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto&display=swap");
+
+.txt_white h2 {
+  color: rgb(0, 0, 0);
+}
+.article_main_white {
+  margin-top: 40px;
+  /* background: blue; */
+}
+
+.txt_white h2:hover {
+  color: rgb(240, 6, 64);
+  text-decoration: none;
+}
+
+.txt_white h2 {
+  font-weight: 500;
+  font-size: 20px;
+  padding-top: 5px;
+  font-size: 18px;
+  padding-left: 10px;
+  font-family: "Oswald", sans-serif;
+}
+
+.article_main_white_card {
+  background-color: rgb(255, 255, 255);
+  border-bottom: none;
+}
+
+.article_main_whitecard {
+  display: flex;
+  max-width: 650px;
+
+  /* background: red; */
+}
+
+.article_main_left_whitecard {
+  /* width: 250px; */
+  width: 200px;
+  background: linear-gradient(90deg, #f7c626 15%, #f68c2f 40%, #e5127d 85%);
+}
+
+.article_main_left_whitecard img {
+  width: 200px;
+}
+
+.article_main_whitecard {
+  margin-top: 10px;
+}
+
+.article_main_right_whitecard h5 {
+  font-size: 15px;
+  margin-top: 5px;
+  color: black;
+  margin-left: 10px;
+  font-weight: 100;
+  font-family: "Oswald", sans-serif;
+}
+
+@media screen and (max-width: 1150px) {
+  .article_main_white {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .article_main_whitecard {
+    width: 100%;
+  }
+  .article_main_white_card {
+    width: 95%;
+  }
+  .article_main_right_whitecard h5 {
+    font-size: 10px;
+    /* color: blue; */
+  }
+  .txt_white h2 {
+    font-size: 15px;
+  }
+  .article_main_left_whitecard {
+    width: 30vw;
+  }
+
+  .article_main_left_whitecard img {
+    width: 30vw;
+    height: 20vw;
+  }
+}

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto&display=swap");
 .App {
   height: 100%;
   width: 100%;
@@ -11,7 +12,7 @@
 }
 
 .blog_body_main {
-  /* background: red; */
+  background: red;
 }
 .App h1 {
   color: black;
@@ -19,60 +20,47 @@
 .blog_body {
   justify-content: center;
   display: flex;
+  background: chartreuse;
 }
 
 .blog_body_articles {
   width: 100%;
-  /* background: rgb(255, 54, 54); */
   display: flex;
+  background: rgb(62, 68, 56);
   flex-direction: row;
 }
 
 .articles_left {
-  /* justify-content: center; */
   display: flex;
-  /* width: 40%; */
-
   flex-direction: column;
-  /* align-items: center; */
-  /* background: rgb(136, 1, 1); */
 }
 @media screen and (min-width: 1400px) {
   .articles_right {
-    max-width: 400px;
+    max-width: 340px;
   }
 }
 .articles_right {
-  /* width: 10%; */
-  /* background: rgb(196, 52, 52); */
-  /* max-width: 400px; */
   flex: 1;
   width: 100vw;
   flex-direction: column;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   color: aliceblue;
 }
 .articles_middle {
   color: aliceblue;
-  /* max-width: 1200px; */
   width: 40vw;
-  /* width: 40vw; */
-  /* justify-content: center; */
   align-items: center;
   display: flex;
   flex-direction: column;
 
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(5, 5, 5);
 }
 
 .showmore_container {
   display: flex;
-  background: rgb(0, 0, 0);
-  /* margin-top: 30px; */
+  background-color: rgb(5, 5, 5);
   width: 100%;
-  /* margin-bottom: 30px; */
   height: 80px;
   display: flex;
   align-items: center;
@@ -83,8 +71,7 @@
   .blog_body_articles {
     display: flex;
     width: 100vw;
-    background: rgb(0, 0, 0);
-    /* align-items: center; */
+    background-color: rgb(5, 5, 5);
     justify-content: center;
     flex-direction: row;
   }
@@ -101,9 +88,10 @@
   .blog_body_articles {
     display: flex;
     width: 100vw;
-    background: rgb(0, 0, 0);
+    background-color: rgb(5, 5, 5);
     align-items: center;
     justify-content: center;
+    /* background: rgb(15, 176, 240); */
     flex-direction: column;
   }
 
@@ -113,6 +101,7 @@
   .articles_right {
     display: flex;
     margin: 10px;
+    flex-direction: row-reverse;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
@@ -240,7 +229,7 @@
 
 .copyright {
   border-top: 1px solid rgb(26, 25, 25);
-  background: black;
+  background-color: rgb(5, 5, 5);
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -262,7 +251,7 @@
   display: flex;
   justify-content: center;
   border-top: 1px solid rgb(26, 25, 25);
-  background: rgb(0, 0, 0);
+  background-color: rgb(5, 5, 5);
 }
 
 @media screen and (min-width: 900px) and (max-width: 1000px) {
@@ -364,13 +353,6 @@
   background: #555;
 } */
 
-@media screen and (max-width: 500px) {
-  /* width */
-  ::-webkit-scrollbar {
-    width: 0px;
-  }
-}
-
 .white_part {
   justify-content: center;
   display: flex;
@@ -380,5 +362,55 @@
 .colorbar_part {
   justify-content: center;
   display: flex;
-  background: black;
+  background-color: rgb(5, 5, 5);
+}
+
+.white_large_container {
+  padding-top: 80px;
+  /* width: 100%; */
+  background-color: rgb(5, 5, 5);
+  /* background: rgb(41, 201, 89); */
+
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.article_medium_right h2 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #f124c5 0%, #7014e0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.articles_right {
+  padding-top: 20px;
+  max-width: 340px;
+}
+
+@media screen and (max-width: 1400px) {
+  .articles_right {
+    width: 100vw;
+    max-width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* width */
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+  .white_large_container {
+    padding-top: 10px;
+  }
+  .articles_left {
+    padding-top: 15px;
+    /* background: chartreuse; */
+  }
 }

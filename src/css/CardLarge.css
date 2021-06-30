@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto&display=swap");
+
+.card_large_upper {
+  height: 110px;
+  background: rgb(0, 0, 0);
+  width: 500px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(255, 0, 119);
+}
+
+.card_large {
+  margin-top: 20px;
+}
+.card_large_upper h2 {
+  font-weight: 400;
+  margin-left: 10px;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 25px;
+}
+
+.card_large_upper h3 {
+  color: rgb(255, 255, 255);
+  text-align: start;
+  display: flex;
+  margin-top: 10px;
+  font-family: "Oswald", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  width: 100%;
+  margin-left: 25px;
+}
+
+.card_large_upper h2:hover {
+  color: rgb(240, 6, 64);
+  cursor: pointer;
+}
+
+.card_large_lower {
+  width: 500px;
+}
+
+.card_large_lower img {
+  width: 500px;
+}
+
+@media screen and (max-width: 520px) {
+  .card_large {
+    width: 95%;
+  }
+  .card_large_upper {
+    width: 100%;
+  }
+
+  .card_large_lower {
+    width: 100%;
+  }
+  .card_large_lower img {
+    width: 100%;
+  }
+  .card_large_upper h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .card_large_upper h2 {
+    font-size: 15px;
+  }
+  .card_large_upper {
+    height: 80px;
+  }
+}

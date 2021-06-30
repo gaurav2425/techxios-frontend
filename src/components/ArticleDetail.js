@@ -30,6 +30,7 @@ function ArticleDetail({ fetchUrl }) {
     async function fetchData() {
       const request = await axios.get(
         `https://www.techxios.tk/api/${name}/${name}-detail/${id}/`
+        // `http://techxios.tk/api/${name}/${name}-detail/${id}/`
       );
       console.log(articleDetail);
       setArticleDetail(request.data);
@@ -192,26 +193,57 @@ function ArticleDetail({ fetchUrl }) {
             <div></div>
           ) : (
             <div className="image">
-              <img src={`${articleDetail.thumbnail}`} alt=""></img>
+              <img src={`${articleDetail.image1}`} alt=""></img>
               <h4
                 style={{
                   textAlign: "start",
-                  color: "#646464",
-                  fontWeight: 300,
+                  fontWeight: 500,
                   fontSize: "15px",
                 }}
               >
-                {articleDetail.thumbnailcredit}
+                {articleDetail.image1credit}
               </h4>
             </div>
           )}
           <div className="article_description">
+            {articleDetail.para1h == "" ? (
+              <div></div>
+            ) : (
+              <div className="heading_h1">
+                <h1 style={{ marginTop: 7 }}>{articleDetail.para1h}</h1>
+              </div>
+            )}
+
             <h4 className="para1">{articleDetail.para1}</h4>
             <div className="para2_quote1">
+              {articleDetail.para2h == "" ? (
+                <div></div>
+              ) : (
+                <div className="heading_h1">
+                  <h1
+                    style={{
+                      marginTop: 7,
+                    }}
+                    className="heading_h1"
+                  >
+                    {articleDetail.para2h}
+                  </h1>
+                </div>
+              )}
+
               <h4 style={{ marginTop: 7 }}>{articleDetail.para2}</h4>
 
               <h2>{articleDetail.quote1}</h2>
             </div>
+
+            {articleDetail.para3h == "" ? (
+              <div></div>
+            ) : (
+              <div className="heading_h1">
+                <h1 style={{ marginTop: 7 }}>{articleDetail.para3h}</h1>
+              </div>
+            )}
+
             {articleDetail.para3 == "" ? (
               <div></div>
             ) : (
@@ -235,13 +267,20 @@ function ArticleDetail({ fetchUrl }) {
                 <h4
                   style={{
                     textAlign: "start",
-                    color: "#646464",
-                    fontWeight: 400,
+                    fontWeight: 500,
                     fontSize: "15px",
                   }}
                 >
                   {articleDetail.youtubevideocredit}
                 </h4>
+              </div>
+            )}
+
+            {articleDetail.para4h == "" ? (
+              <div></div>
+            ) : (
+              <div className="heading_h1">
+                <h1 style={{ marginTop: 7 }}>{articleDetail.para4h}</h1>
               </div>
             )}
 
@@ -254,17 +293,46 @@ function ArticleDetail({ fetchUrl }) {
             <h4 style={{ marginTop: 7 }}>{articleDetail.para5}</h4>
           </div>
 
-          {articleDetail.image == null ? (
+          {articleDetail.image2 == null ? (
             <div></div>
           ) : (
             <div className="image1">
-              <img src={`${articleDetail.image}`}></img>
-              <h4>{articleDetail.imagecredit}</h4>
+              <img src={`${articleDetail.image2}`}></img>
+              <h4>{articleDetail.image2credit}</h4>
             </div>
           )}
 
           <div className="article_description article_description2 ">
+            {articleDetail.para6h == "" ? (
+              <div></div>
+            ) : (
+              <h1
+                style={{
+                  marginTop: 7,
+                  // color: "#646464",
+                  // fontWeight: 500,
+                  fontSize: "40px",
+                }}
+              >
+                {articleDetail.para6h}
+              </h1>
+            )}
+
             <h4>{articleDetail.para6}</h4>
+
+            {articleDetail.para7h == "" ? (
+              <div></div>
+            ) : (
+              <h1
+                style={{
+                  marginTop: 7,
+
+                  fontSize: "40px",
+                }}
+              >
+                {articleDetail.para7h}
+              </h1>
+            )}
 
             <h4>{articleDetail.para7}</h4>
 
@@ -284,14 +352,53 @@ function ArticleDetail({ fetchUrl }) {
                 ></Tweet>
               </div>
             </div>
-            <h4 style={{ marginTop: 7 }}>{articleDetail.para8}</h4>
 
-            <h4 style={{ marginTop: 7 }}>{articleDetail.para9}</h4>
-            {articleDetail.videosrc === "" ? (
+            {articleDetail.para8h == "" ? (
               <div></div>
             ) : (
-              <VideoLarge></VideoLarge>
+              <h1
+                style={{
+                  marginTop: 7,
+
+                  fontSize: "40px",
+                }}
+              >
+                {articleDetail.para8h}
+              </h1>
             )}
+
+            <h4 style={{ marginTop: 7 }}>{articleDetail.para8}</h4>
+
+            {articleDetail.para9h == "" ? (
+              <div></div>
+            ) : (
+              <h1
+                style={{
+                  marginTop: 7,
+
+                  fontSize: "40px",
+                }}
+              >
+                {articleDetail.para9h}
+              </h1>
+            )}
+
+            <h4 style={{ marginTop: 7 }}>{articleDetail.para9}</h4>
+
+            {articleDetail.para10h == "" ? (
+              <div></div>
+            ) : (
+              <h1
+                style={{
+                  marginTop: 7,
+
+                  fontSize: "40px",
+                }}
+              >
+                {articleDetail.para10h}
+              </h1>
+            )}
+
             {articleDetail.para10 === "" ? (
               <div></div>
             ) : (
@@ -304,6 +411,20 @@ function ArticleDetail({ fetchUrl }) {
               <h2 style={{ marginTop: "25px", marginBottom: "25px" }}>
                 {articleDetail.quote2}
               </h2>
+            )}
+
+            {articleDetail.para11h == "" ? (
+              <div></div>
+            ) : (
+              <h1
+                style={{
+                  marginTop: 7,
+
+                  fontSize: "40px",
+                }}
+              >
+                {articleDetail.para11h}
+              </h1>
             )}
 
             {articleDetail.para11 === "" ? (

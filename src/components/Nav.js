@@ -91,12 +91,11 @@ function ResponsiveDrawer(props) {
             borderBottom: "rgb(20,20,20) 1px solid",
           }}
         >
-          <div>
+          <div className="smallnav_name">
             <Link to="/" style={{ textDecoration: "none" }}>
               <h3
                 style={{
-                  color: "white",
-                  paddingLeft: 15,
+                  paddingLeft: 20,
                 }}
               >
                 TechXios
@@ -845,7 +844,7 @@ function ResponsiveDrawer(props) {
 
         className={classes.appBar}
         style={{
-          background: "black",
+          background: "rgb(5,5,5)",
           height: 50,
           justifyContent: "center",
           // position: "unset",
@@ -862,8 +861,8 @@ function ResponsiveDrawer(props) {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap>
-            <div className="nav_setting">
-              <Link to="/" style={{ color: "white" }}>
+            <div className="nav_setting smallnav_name">
+              <Link to="/">
                 <h4>TechXios</h4>
               </Link>
             </div>

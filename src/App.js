@@ -1,6 +1,7 @@
 import "./App.css";
 import "../src/components/BlogBanner";
 import BlogBanner from "../src/components/BlogBanner";
+import WhiteLarge from "../src/components/WhiteLarge";
 import Navbar from "../src/components/Navbar";
 import Nav from "../src/components/Nav";
 import { Helmet } from "react-helmet";
@@ -22,8 +23,10 @@ import { Link } from "react-router-dom";
 import ScrollToTop from "../src/components/ScrollToTop";
 import Privacy from "../src/components/Privacy";
 import { useEffect } from "react";
+import Crypto from "../src/components/Crypto";
 import ColorBar from "../src/components/ColorBar";
 import React from "react";
+import ArticleRightCard from "./components/ArticleRightCard";
 
 function App() {
   useEffect(() => {
@@ -1089,15 +1092,6 @@ function App() {
               </div>
             </div>
 
-            {/* <AdSense.Google
-              client="ca-pub-5935658665646654"
-              slot="6080859207"
-              style={{ display: "block" }}
-              format="auto"
-              responsive="true"
-              layoutKey="-gw-1+2a-9x+5c"
-            /> */}
-
             <div className="blog_body_main">
               <div className="blog_body">
                 <div className="blog_body_articles">
@@ -1106,7 +1100,6 @@ function App() {
                       <div
                         className="small_articles"
                         style={{
-                          background: "black",
                           objectFit: "cover",
                         }}
                       >
@@ -1120,20 +1113,59 @@ function App() {
                       ></Article_large>
                     </div>
                   </div>
-
                   <div className="articles_right">
-                    {/* <ArticleMedium fetchUrl={requests.NewList}></ArticleMedium> */}
-
-                    <ArticleMedium fetchUrl={requests.NewList}></ArticleMedium>
+                    <div>
+                      <ArticleMedium
+                        fetchUrl={requests.NewList}
+                      ></ArticleMedium>
+                    </div>
                   </div>
                 </div>
               </div>
-              {/* <div className="colorbar_part">
+
+              {/* <div className="white_large_container">
+                <WhiteLarge
+                  fetchUrl={requests.HotList}
+                  img="https://cdn.vox-cdn.com/thumbor/4QxZHzh16T9SoERSZ-pD82RhX9g=/0x0:2000x1121/587x330/filters:focal(840x401:1160x721):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/69500045/lcimg_933b886b_dbb2_42fd_b7e3_69fe7c89bf06.0.jpg"
+                  title="FAA clears Virgin Galactic for commercial astronaut spaceflight"
+                  desc="SmartAsset, a marketplace that connects consumers to financial advisors, announced today that it has raised $110 million in a Series D round of funding. The financing values New York-based SmartAss..."
+                ></WhiteLarge>
+              </div> */}
+
+              {/* <div className="white_large_container">
+                <WhiteLarge
+                  img="https://cdn.vox-cdn.com/thumbor/9IbVkaTHQLeHn35Vwgly6Hetjj0=/0x65:1218x750/280x158/filters:format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/69500476/optimum.0.jpg"
+                  title="Daily Crunch: With Wickr purchase, AWS enters the encrypted messaging business"
+                  desc="SmartAsset, a marketplace that connects consumers to financial advisors, announced today that it has raised $110 million in a Series D round of funding. The financing values New York-based SmartAss..."
+                ></WhiteLarge>
+              </div> */}
+
+              <div className="white_large_container">
+                <WhiteLarge
+                  fetchUrl={requests.HotList}
+                  img="https://cdn.vox-cdn.com/thumbor/2Bd1z9VLDpiQ-f2IXP4LPgA_wAE=/0x0:2040x1360/920x613/filters:focal(887x661:1213x987):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/69499394/akrales_181012_3020_0039.0.jpg"
+                  title="Razer Blade 14 review: pint-size power"
+                  desc="Having read more SPAC investor decks in the last twelve months than I’d like to admit to, I thought I was over being irked by their bullishness. Call me conservative, but public companies sho..."
+                ></WhiteLarge>
+              </div>
+
+              {/* <div className="white_large_container">
+                <WhiteLarge
+                  img="https://cdn.vox-cdn.com/thumbor/DOIPcwvjRP6INNU_FBMzA9uqs3s=/0x0:4683x3122/587x330/filters:focal(1968x1187:2716x1935):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/69500397/1231082774.0.jpg"
+                  title="Razer Blade 14 review: pint-size power"
+                  desc="What are the most important factors when you’re pitching your startup for fundraising? What questions come to the minds of the VCs you’re pitching? How do you get the deal across the fi..."
+                ></WhiteLarge>
+              </div> */}
+
+              <div className="colorbar_part">
                 <ColorBar></ColorBar>
               </div>
               <div className="white_part">
-                <Whitepart></Whitepart>
-              </div> */}
+                <Whitepart
+                  fetchUrl={requests.TrendingList}
+                  fetchUrl1={requests.NewList}
+                ></Whitepart>
+              </div>
             </div>
 
             <div className="showmore_container">

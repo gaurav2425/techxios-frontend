@@ -8,11 +8,7 @@ import Loading from "../components/Loading";
 function Article_large({ fetchUrl }) {
   const [hot, setHot] = useState([]);
   const [loading, setLoading] = useState(false);
-  const override = css`
-    display: block;
-    margin: 0 auto;
-    border-color: red;
-  `;
+
   useEffect(() => {
     async function fetchData() {
       const request = await axios.get(fetchUrl);
@@ -34,6 +30,7 @@ function Article_large({ fetchUrl }) {
                 <div className="articel_large_top">
                   <img src={`${hot.thumbnail}`}></img>
                 </div>
+
                 <div className="articel_large_bottom">
                   <div className="articel_large_bottom_card">
                     <Link
@@ -45,50 +42,13 @@ function Article_large({ fetchUrl }) {
                       ) : (
                         <h5>{hot.title.slice(0, 62)}...</h5>
                       )}
-                      {/* {hot.title}-{hot.title.length} */}
                     </Link>
 
-                    {/* <h5>{hot.title}</h5> */}
                     {hot.description.length < 180 ? (
                       <h6>{hot.description}</h6>
                     ) : (
                       <h6>{hot.description.slice(0, 180)}...</h6>
                     )}
-                    {/* {hot.description} */}
-                    <br></br>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
-
-          {hot.slice(2).map((hot) => {
-            return (
-              <div className="article_large">
-                <div className="articel_large_top">
-                  <img src={`${hot.thumbnail}`}></img>
-                </div>
-                <div className="articel_large_bottom">
-                  <div className="articel_large_bottom_card">
-                    <Link
-                      to={`/${hot.name}/${hot.id}`}
-                      style={{ textDecoration: "none", color: "white" }}
-                    >
-                      {hot.title.length < 62 ? (
-                        <h5>{hot.title}</h5>
-                      ) : (
-                        <h5>{hot.title.slice(0, 62)}...</h5>
-                      )}
-                      {/* {hot.title}-{hot.title.length} */}
-                    </Link>
-
-                    {/* <h5>{hot.title}</h5> */}
-                    {hot.description.length < 180 ? (
-                      <h6>{hot.description}</h6>
-                    ) : (
-                      <h6>{hot.description.slice(0, 180)}...</h6>
-                    )}
-                    {/* {hot.description} */}
                     <br></br>
                   </div>
                 </div>

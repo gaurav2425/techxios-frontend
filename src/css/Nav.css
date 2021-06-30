@@ -55,3 +55,15 @@
 h4 {
   font-family: "Roboto", sans-serif;
 }
+
+.smallnav_name h3 {
+  background: linear-gradient(to right, #f124c5 0%, #7014e0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.smallnav_name h4 {
+  background: linear-gradient(to right, #f124c5 0%, #7014e0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

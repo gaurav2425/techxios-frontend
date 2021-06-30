@@ -1,15 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Whitecard from "../components/Whitecard";
-function Whitepart({ fetchUrl }) {
+import Whitecard1 from "../components/Whitecard1";
+import "../css/Whitepart.css";
+
+function Whitepart({ fetchUrl, fetchUrl1 }) {
   const wholepart = {
-    height: "800px",
-    width: "90%",
+    paddingBottom: "40px",
+    // width: "90%",
     background: "white",
+    display: "flex",
+    justifyContent: "space-evenly",
   };
+
   return (
-    <div style={wholepart}>
-      <h1>I AM White Part</h1>
-      <Whitecard></Whitecard>
+    <div style={wholepart} className="whitepart_main">
+      <div className="whitepart_main_top">
+        <Whitecard fetchUrl={fetchUrl}></Whitecard>
+      </div>
+
+      <div className="whitepart_main_bottom">
+        <Whitecard1 fetchUrl={fetchUrl1}></Whitecard1>
+      </div>
     </div>
   );
 }

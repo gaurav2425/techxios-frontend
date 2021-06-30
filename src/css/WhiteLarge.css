@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto&display=swap");
+.whitelarge_main {
+  display: flex;
+  max-width: 1640px;
+  /* padding-left: 20px; */
+  /* background: coral; */
+}
+
+.whitelarge_main_left {
+  width: 30%;
+  /* background-color: rgb(0, 255, 64); */
+  font-size: 25px;
+}
+.whitelarge_main_right img {
+  width: 300px;
+  height: auto;
+}
+
+.whitelarge_main_left h5 {
+  font-weight: 500;
+  margin-top: 10px;
+  font-family: "Oswald", sans-serif;
+}
+
+.whitelarge_main_middle {
+  /* background-color: red; */
+  width: 50%;
+
+  text-align: left;
+
+  align-items: center;
+}
+
+.whitelarge_main_middle h5 {
+  margin-top: 12px;
+
+  font-size: 17px;
+  color: rgb(138, 131, 131);
+  font-weight: 300;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+
+.whitelarge_main_left h5:hover {
+  background: -webkit-linear-gradient(#333, #eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1700px) {
+  .whitelarge_main {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .whitelarge_main_middle h5 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .whitelarge_main {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .whitelarge_main_middle {
+    display: none;
+  }
+  .whitelarge_main_left {
+    width: 50%;
+  }
+  .whitelarge_main_right img {
+    width: 300px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .whitelarge_main {
+    display: flex;
+
+    flex-direction: column-reverse;
+    /* background: #eee; */
+    /* width: 60%; */
+  }
+  .whitelarge_main_left {
+    width: 100%;
+    text-align: start;
+  }
+  .whitelarge_main_right img {
+    width: 100%;
+    height: auto;
+  }
+  .whitelarge_main_left h5 {
+    font-weight: 500;
+    margin-top: 0px;
+    font-family: "Oswald", sans-serif;
+  }
+}
+
+.whitelarge_main_container {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.whitelarge_main {
+  margin-top: 20px;
+}
