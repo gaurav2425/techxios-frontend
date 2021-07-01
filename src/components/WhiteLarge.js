@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import Loading from "../components/Loading";
 import "../css/WhiteLarge.css";
 
-function WhiteLarge({ img, title, desc, fetchUrl }) {
+function WhiteLarge({ fetchUrl }) {
   const [hot, setHot] = useState([]);
   const [loading, setLoading] = useState(false);
 
@@ -35,7 +35,11 @@ function WhiteLarge({ img, title, desc, fetchUrl }) {
               </Link>
             </div>
             <div className="whitelarge_main_middle">
-              <h5>{hot.description}</h5>
+              {hot.description.length < 250 ? (
+                <h5>{hot.description}</h5>
+              ) : (
+                <h5>{hot.description.slice(0, 250)}..</h5>
+              )}
             </div>
             <div className="whitelarge_main_right">
               <img src={`${hot.thumbnail}`}></img>
