@@ -29,7 +29,7 @@ function Whitecard1({ fetchUrl }) {
     <div>
       {loading ? (
         <div className="article_medium_body">
-          {newone.slice(6).map((newone) => {
+          {newone.slice(5).map((newone) => {
             return (
               <div className="article_medium article_medium_white">
                 <div className="article_top">

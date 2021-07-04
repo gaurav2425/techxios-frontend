@@ -37,11 +37,13 @@
 .article_main_left_whitecard {
   /* width: 250px; */
   width: 200px;
+  height: 125px;
   background: linear-gradient(90deg, #f7c626 15%, #f68c2f 40%, #e5127d 85%);
 }
 
 .article_main_left_whitecard img {
   width: 200px;
+  height: 125px;
 }
 
 .article_main_whitecard {

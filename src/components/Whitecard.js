@@ -65,7 +65,12 @@ function Whitecard({ ImageSrc, fetchUrl }) {
             return (
               <div className="card_large">
                 <div className="card_large_upper">
-                  <h2>{trending.title}</h2>
+                  <Link
+                    to={`/${trending.name}/${trending.id}`}
+                    style={{ textDecoration: "none" }}
+                  >
+                    <h2>{trending.title}</h2>
+                  </Link>
                   <h3>
                     {trending.dateint} {trending.month} | {trending.day}
                   </h3>
