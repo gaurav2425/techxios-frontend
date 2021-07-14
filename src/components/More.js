@@ -8,7 +8,7 @@ function More() {
   useEffect(() => {
     async function fetchData() {
       const request = await axios.get(
-        `http://techxios.tk/api/more/more-list`
+        `https://www.techxios.tk/api/more/more-list`
       );
 
       var items = request.data;
