@@ -30,7 +30,9 @@ import ArticleRightCard from "./components/ArticleRightCard";
 
 function App() {
   useEffect(() => {
-    ReactGa.initialize("UA-197327528-1");
+    ReactGa.initialize("UA-202395580-1");
+    
+    /*UA-197327528-1*/
 
     ReactGa.pageview("/");
   }, []);
