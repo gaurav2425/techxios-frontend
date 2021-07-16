@@ -635,6 +635,7 @@ function App() {
 
             <Helmet>
               <title>Linkedin - Techxios</title>
+
             </Helmet>
 
             <div className="page_info">
@@ -711,12 +712,26 @@ function App() {
 
             <Helmet>
               <title>Instagram - Techxios</title>
+               <meta
+                  id="meta-description"
+                  name="description"
+                  content="Instagram is an
+                American photo and video sharing social networking service
+                created by Kevin Systrom and Mike Krieger. In April 2012,
+                Facebook acquired the service for approximately US$1 billion in
+                cash and stock. The app allows users to upload media that can be
+                edited with filters and organized by hashtags and geographical
+                tagging. Posts can be shared publicly or with pre-approved
+                followers. Users can browse other users' content by tags and
+                locations and view trending content. Users can like photos and
+                follow other users to add their content to a personal fee"
+                />
             </Helmet>
 
             <div className="page_info">
               <h3>Instagram</h3>
               <h5>
-                Instagram (commonly abbreviated to IG or Insta)[8] is an
+                Instagram is an
                 American photo and video sharing social networking service
                 created by Kevin Systrom and Mike Krieger. In April 2012,
                 Facebook acquired the service for approximately US$1 billion in
