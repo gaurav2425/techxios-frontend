@@ -64,8 +64,12 @@ function ArticleDetail({ fetchUrl }) {
                   name="description"
                   content={`${articleDetail.para1}`}
                 />
-                <meta name="author" content="Techxios"/>
-                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                <meta name="keywords" content={`${articleDetail.keywords}`} />
+                <meta name="author" content="Techxios Media" />
+                <meta
+                  name="viewport"
+                  content="width=device-width, initial-scale=1.0"
+                />
                 
               </Helmet>
               <div
