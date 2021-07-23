@@ -363,13 +363,11 @@ function App() {
             <div className="page_info">
               <h3>Energy</h3>
               <h5>
-                Once a modest online seller of books, Amazon is now one of the
-                largest companies in the world, and its CEO, Jeff Bezos, is the
-                world’s most wealthy person. We track developments, both of
-                Bezos and Amazon, its growth as a video producer, the popular
-                Prime service, as well as its own hardware, which includes the
-                Amazon Kindle e-reader, Amazon Kindle Fire tablets, and Amazon
-                Fire TV streaming boxes.
+               Energy can be neither created nor destroyed but only changed from one form to another. 
+               This principle is known as the conservation of energy or the first law of thermodynamics.
+               Energy can be converted from one form to another in various other ways. Usable mechanical or 
+               electrical energy is, for instance, produced by many kinds of devices, 
+                 including fuel-burning heat engines, generators, batteries, fuel cells, and magnetohydrodynamic systems.
               </h5>
             </div>
             <div className="page_body">
